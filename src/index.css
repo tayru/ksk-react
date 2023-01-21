@@ -416,12 +416,12 @@ body {
 
 .slick-arrow.slick-prev {
   left: 0;
-  background: url(/static/img/Angle-left-dark-blue.svg) 0 0 / 100% no-repeat;
+  background: url(/public/static/img/Angle-left-dark-blue.svg) 0 0 / 100% no-repeat;
 }
 
 .slick-arrow.slick-next {
   right: 0;
-  background: url(/static/img/Angle-right-dark-blue.svg) 0 0 / 100% no-repeat;
+  background: url(/public/static/img/Angle-right-dark-blue.svg) 0 0 / 100% no-repeat;
 }
 
 .slick-list {

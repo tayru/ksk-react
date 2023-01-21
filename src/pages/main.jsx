@@ -38,49 +38,49 @@ const Main = () => (
 
                         <div className="simple-and-fast__steps">
                             <div className="step step1">
-                                <img src="img/Send.svg" alt=""/>
+                                <img src="/static/img/Send.svg" alt=""/>
                                 <span>Заявка</span>
                             </div>
                             <div className="icon-next">
-                                <img src="img/Angle-right-blue.svg" alt=""/>
+                                <img src="/static/img/Angle-right-blue.svg" alt=""/>
                             </div>
                             <div className="step step2">
-                                <img src="img/Group-chat.svg" alt=""/>
+                                <img src="/static/img/Group-chat.svg" alt=""/>
                                 <span>Консультация</span>
                             </div>
                             <div className="icon-next">
-                                <img src="img/Angle-right-blue.svg" alt=""/>
+                                <img src="/static/img/Angle-right-blue.svg" alt=""/>
                             </div>
                             <div className="step step3">
-                                <img src="img/Chat-check.svg" alt=""/>
+                                <img src="/static/img/Chat-check.svg" alt=""/>
                                 <span>Подтверждение</span>
                             </div>
                             <div className="icon-next">
-                                <img src="img/Angle-right-blue.svg" alt=""/>
+                                <img src="/static/img/Angle-right-blue.svg" alt=""/>
                             </div>
                             <div className="step step4">
-                                <img src="img/List-check.svg" alt=""/>
+                                <img src="/static/img/List-check.svg" alt=""/>
                                 <span>Оформление</span>
                             </div>
                             <div className="icon-next">
-                                <img src="img/Angle-right-blue.svg" alt=""/>
+                                <img src="/static/img/Angle-right-blue.svg" alt=""/>
                             </div>
                             <div className="step step5">
-                                <img src="img/Debit-card.svg" alt=""/>
+                                <img src="/static/img/Debit-card.svg" alt=""/>
                                 <span>Оплата</span>
                             </div>
                             <div className="icon-next">
-                                <img src="img/Angle-right-blue.svg" alt=""/>
+                                <img src="/static/img/Angle-right-blue.svg" alt=""/>
                             </div>
                             <div className="step step6">
-                                <img src="img/Flag.svg" alt=""/>
+                                <img src="/static/img/Flag.svg" alt=""/>
                                 <span>Выполнение</span>
                             </div>
                             <div className="icon-next">
-                                <img src="img/Angle-right-blue.svg" alt=""/>
+                                <img src="/static/img/Angle-right-blue.svg" alt=""/>
                             </div>
                             <div className="step step7">
-                                <img src="img/Check.svg" alt=""/>
+                                <img src="/static/img/Check.svg" alt=""/>
                                 <span>Закрытие заказа</span>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ const Main = () => (
                                             свободному месту и выезду с парковки.
                                         </p>
                                     </div>
-                                    <img className="service__img" src="img/парковщик.jpg" alt=""/>
+                                    <img className="service__img" src="/static/img/парковщик.jpg" alt=""/>
                                     <h3 className="service__title">Парковщик</h3>
                                 </div>
                             </div>
@@ -132,7 +132,7 @@ const Main = () => (
                                             имиджа мероприятия на высоком уровне.
                                         </p>
                                     </div>
-                                    <img className="service__img" src="img/промо-хостес.jpg" alt=""/>
+                                    <img className="service__img" src="/static/img/промо-хостес.jpg" alt=""/>
                                     <h3 className="service__title">Промо-хостес</h3>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@ const Main = () => (
                                             обладают модельной внешностью.
                                         </p>
                                     </div>
-                                    <img className="service__img" src="img/промо-модель.jpg" alt=""/>
+                                    <img className="service__img" src="/static/img/промо-модель.jpg" alt=""/>
                                     <h3 className="service__title">Промо-модель</h3>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@ const Main = () => (
                                             задачи поставленные организатором.
                                         </p>
                                     </div>
-                                    <img className="service__img" src="img/хелпер.jpg" alt=""/>
+                                    <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
                                     <h3 className="service__title">Хелпер</h3>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@ const Main = () => (
                                             будет исчерпан прежде, чем начнется.
                                         </p>
                                     </div>
-                                    <img className="service__img" src="img/безопасность.jpg" alt=""/>
+                                    <img className="service__img" src="/static/img/безопасность.jpg" alt=""/>
                                     <h3 className="service__title">Безопасность</h3>
                                 </div>
                             </div>
@@ -205,21 +205,21 @@ const Main = () => (
                     <div className="col-sm-12">
                         <div className="list-advantages">
                             <div className="advantage advantage1">
-                                <img className="advantage__image" src="img/Group.svg" alt=""/>
+                                <img className="advantage__image" src="/static/img/Group.svg" alt=""/>
                                 <span>Высокая договоренность и оперативная коммуникация.</span>
                             </div>
                             <div className="advantage advantage2">
-                                <img className="advantage__image" src="img/star-02.svg" alt=""/>
+                                <img className="advantage__image" src="/static/img/star-02.svg" alt=""/>
                                 <span>Профессионализм. Мы являемся специалистами своего дела!</span>
                             </div>
                             <div className="advantage advantage3">
-                                <img className="advantage__image" src="img/Safe-chat.svg" alt=""/>
+                                <img className="advantage__image" src="/static/img/Safe-chat.svg" alt=""/>
                                 <span>Индивидуальный подход и адаптивность решений Ваших задач.</span>
                             </div>
                         </div>
 
                         <video autoPlay loop muted controls className="advantages__video"
-                               src="img/VID_20200816_142820 (1).mp4"></video>
+                               src="/static/img/VID_20200816_142820 (1).mp4"></video>
 
                         <h2 className="advantages__title">Организуем <span>логистику любого уровня</span> независимо от
                             условий и дальности!</h2>
@@ -232,11 +232,11 @@ const Main = () => (
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <img className="why-we__image" src="img/Rectangle 22.png" alt=""/>
+                        <img className="why-we__image" src="/static/img/Rectangle 22.png" alt=""/>
                     </div>
                     <div className="col">
                         <div className="divider">
-                            <img src="img/divider-dark.svg" alt=""/>
+                            <img src="/static/img/divider-dark.svg" alt=""/>
                         </div>
                         <div className="why-we__text">
                             Предоставляем <span>100% квалифицированный</span> и обученный персонал. Работаем только с
@@ -260,7 +260,7 @@ const Main = () => (
 
         <div className="feedback-second">
             <div className="feedback-second__image _ibg">
-                <img src="img/cover.jpg" alt="cover"/>
+                <img src="/static/img/cover.jpg" alt="cover"/>
             </div>
             <h2 className="feedback-second__title">Нужна помощь?</h2>
             <div className="feedback-second__block">
@@ -283,11 +283,11 @@ const Main = () => (
                                   placeholder="Описание запроса"></textarea>
                         <div className="feedback-second__contacts">
                             <div className="feedback-second__phone">
-                                <img className="phone__image" src="img/Call-2.svg" alt=""/> <a href="tel:+79309153808">+7
+                                <img className="phone__image" src="/static/img/Call-2.svg" alt=""/> <a href="tel:+79309153808">+7
                                 (930) 915-38-08</a>
                             </div>
                             <div className="feedback-second__mail">
-                                <img className="mail__image" src="img/Mail.svg" alt=""/> info@kskpeople.com
+                                <img className="mail__image" src="/static/img/Mail.svg" alt=""/> info@kskpeople.com
                             </div>
 
                         </div>
