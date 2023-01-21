@@ -7,7 +7,7 @@ const Main = () => (
                     <br/>в <span>любую точку</span> Москвы и области <br/>к назначенному часу</h1>
             </div>
             <div className="main-block__image _ibg">
-                <img src="img/cover.jpg" alt="cover"/>
+                <img src="/static/img/cover.jpg" alt="cover"/>
             </div>
         </div>
 
