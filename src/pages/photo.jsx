@@ -4,11 +4,11 @@ const Photo = () => (
 			<div className="main-block__container _container">
 				<h1 className="service-photo__title">Фото/видеосъемка</h1>
 				<div className="divider">
-					<img src="/img/divider-white.svg" alt="">
+					<img src="/img/divider-white.svg" alt=""/>
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/img/d85de090-1623-4208-bbf1-8b5cd485d31b.jfif" alt="cover">
+				<img src="/img/d85de090-1623-4208-bbf1-8b5cd485d31b.jfif" alt="cover"/>
 			</div>
 		</div>
 
@@ -17,7 +17,7 @@ const Photo = () => (
 				<div className="row">
 					<div className="col">
 						<div className="divider">
-							<img src="img/stars.svg" alt="">
+							<img src="img/stars.svg" alt=""/>
 						</div>
 						<div className="service-photo__text">
 							Текст

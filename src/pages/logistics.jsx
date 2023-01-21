@@ -4,11 +4,11 @@ const Logistics = () => (
 			<div className="main-block__container _container">
 				<h1 className="service-logistics__title">Логистическое сопровождение мероприятия</h1>
 				<div className="divider">
-					<img src="/img/divider-white.svg" alt="">
+					<img src="/img/divider-white.svg" alt=""/>
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/img/service-logistics.jpg" alt="cover">
+				<img src="/img/service-logistics.jpg" alt="cover"/>
 			</div>
 		</div>
 
@@ -17,7 +17,7 @@ const Logistics = () => (
 				<div className="row">
 					<div className="col">
 						<div className="divider">
-							<img src="img/stars.svg" alt="">
+							<img src="img/stars.svg" alt=""/>
 						</div>
 						<div className="service-logistics__text">
 							Текст

@@ -4,11 +4,11 @@ const Portfolio = () => (
 			<div class="main-block__container _container">
 				<h1 class="portfolio__title">Портфолио</h1>
 				<div class="divider">
-					<img src="/img/divider-white.svg" alt="">
+					<img src="/img/divider-white.svg" alt=""/>
 				</div>
 			</div>
 			<div class="main-block__image _ibg">
-				<img src="/img/IMG_20210422_100531.jpg" alt="cover">
+				<img src="/img/IMG_20210422_100531.jpg" alt="cover"/>
 			</div>
 		</div>
 
@@ -18,39 +18,19 @@ const Portfolio = () => (
 					<div class="col-sm-12">
 						<div class="slider-portfolio">
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-12">
-						<div class="slider-portfolio">
-							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 						</div>
 					</div>
@@ -58,19 +38,19 @@ const Portfolio = () => (
 					<div class="col-sm-12">
 						<div class="slider-portfolio">
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 						</div>
 					</div>
@@ -78,19 +58,39 @@ const Portfolio = () => (
 					<div class="col-sm-12">
 						<div class="slider-portfolio">
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/img/festivals.jpg" alt="">
+								<img src="/img/festivals.jpg" alt=""/>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12">
+						<div class="slider-portfolio">
+							<div class="slider-portfolio__item">
+								<img src="/img/festivals.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/img/festivals.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/img/festivals.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/img/festivals.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/img/festivals.jpg" alt=""/>
 							</div>
 						</div>
 					</div>

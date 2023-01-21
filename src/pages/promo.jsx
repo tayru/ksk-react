@@ -4,11 +4,11 @@ const Promo = () => (
 			<div className="main-block__container _container">
 				<h1 className="service-promo__title">Промо-сопровождение</h1>
 				<div className="divider">
-					<img src="/img/divider-white.svg" alt="">
+					<img src="/img/divider-white.svg" alt=""/>
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/img/service-promo.jpg" alt="cover">
+				<img src="/img/service-promo.jpg" alt="cover"/>
 			</div>
 		</div>
 
@@ -17,17 +17,17 @@ const Promo = () => (
 				<div className="row">
 					<div className="col">
 						<div className="divider">
-							<img src="img/stars.svg" alt="">
+							<img src="img/stars.svg" alt=""/>
 						</div>
 						<div className="service-promo__text">
-							Организуем для Вас: <br><br>
+							Организуем для Вас: <br/><br/>
 
 							• Презентации и выставки, на которых покупатели зрительно познакомятся с Вашими
-							товарами;<br>
+							товарами;<br/>
 							• Тестировании и дегустации продукции, в процессе которых у целевой аудитории
-							сложится общее положительное впечатление о бренде;<br>
+							сложится общее положительное впечатление о бренде;<br/>
 							• Анонсировании выгод приобретения изделий и кoсультирование по вопросам,
-							связанным с продукцией компании и др.<br><br>
+							связанным с продукцией компании и др.<br/><br/>
 							Наши промоакции всегда запоминающиеся, поскольку мы со всей ответственностью
 							подходим к доверенным нам задачам.
 						</div>

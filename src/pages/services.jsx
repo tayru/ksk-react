@@ -6,7 +6,7 @@ const Services = () => (
                 <h1 className="page3__title">Услгуи и персонал</h1>
             </div>
             <div className="main-block__image _ibg">
-                <img src="/img/09c50d3e-0620-4510-a264-c49d3827a506.jfif" alt="cover">
+                <img src="/img/09c50d3e-0620-4510-a264-c49d3827a506.jfif" alt="cover"/>
             </div>
         </div>
 
@@ -61,7 +61,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ const Services = () => (
                                     свободному месту и выезду с парковки.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/парковщик.jpg" alt="">
+                            <img className="service__img" src="/img/парковщик.jpg" alt=""/>
                                 <h3 className="service__title">Парковщик</h3>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ const Services = () => (
                                     будет исчерпан прежде, чем начнется.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/безопасность.jpg" alt="">
+                            <img className="service__img" src="/img/безопасность.jpg" alt=""/>
                                 <h3 className="service__title">Безопасность</h3>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -194,7 +194,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -214,7 +214,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -234,7 +234,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -254,7 +254,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -274,7 +274,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -294,7 +294,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -314,7 +314,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -334,7 +334,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -354,7 +354,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
@@ -374,7 +374,7 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/img/хелпер.jpg" alt="">
+                            <img className="service__img" src="/img/хелпер.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
