@@ -5,11 +5,11 @@ const About = () => (
             <div className="main-block__container _container">
                 <h1 className="page2__title">О нас</h1>
                 <div className="divider">
-                    <img src="/img/divider-white.svg" alt=""/>
+                    <img src="/static/img/divider-white.svg" alt=""/>
                 </div>
             </div>
             <div className="main-block__image _ibg">
-                <img src="/img/IMG_20211019_110830.jpg" alt="cover"/>
+                <img src="/static/img/IMG_20211019_110830.jpg" alt="cover"/>
             </div>
         </div>
 
@@ -72,7 +72,7 @@ const About = () => (
                                     Цитата
                                 </p>
                             </div>
-                            <img className="staff__img" src="/img/хелпер.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const About = () => (
                                     Цитата
                                 </p>
                             </div>
-                            <img className="staff__img" src="/img/хелпер.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ const About = () => (
                                     Цитата
                                 </p>
                             </div>
-                            <img className="staff__img" src="/img/хелпер.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ const About = () => (
                                     Цитата
                                 </p>
                             </div>
-                            <img className="staff__img" src="/img/хелпер.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ const About = () => (
                                     Цитата
                                 </p>
                             </div>
-                            <img className="staff__img" src="/img/хелпер.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ const About = () => (
                                     Цитата
                                 </p>
                             </div>
-                            <img className="staff__img" src="/img/хелпер.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ const About = () => (
                                     Цитата
                                 </p>
                             </div>
-                            <img className="staff__img" src="/img/хелпер.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
@@ -156,7 +156,7 @@ const About = () => (
                                     Цитата
                                 </p>
                             </div>
-                            <img className="staff__img" src="/img/хелпер.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
