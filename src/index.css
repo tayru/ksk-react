@@ -557,11 +557,19 @@ body {
 }
 
 .advantages__video {
-  max-width: 1110px;
   min-height: 440px;
-  margin-top: 60px;
   border-radius: 15px;
+  margin: auto;
+  margin-top: 60px;
+  object-fit: cover;
+  max-height: 600px;
+  width: 100%;
 }
+
+.advantages__video::-webkit-media-controls {
+  display:none !important;
+}
+
 .advantages__title {
   font-family: 'Ubuntu';
   font-style: normal;
