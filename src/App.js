@@ -30,8 +30,8 @@ const MainRout = () => (
         <Route path='/promo' element={<Promo/>}/>
         <Route path='/sanitation' element={<Sanitation/>}/>
         <Route path='/security' element={<Security/>}/>
-        <Route path='/services' element={<Trust/>}/>
-        <Route path='/contacts' element={<Services/>}/>
+        <Route path='/trust' element={<Trust/>}/>
+        <Route path='/services' element={<Services/>}/>
 
       </Routes>
     </main>
