@@ -97,104 +97,85 @@ const Main = () => (
         <div className="popular-services">
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-12">
                         <h2 className="popular-services__title"> Популярные услуги </h2>
-
-                        <div className="slider">
-                            <div className="slider__item">
-                                <div className="service">
-                                    <div className="service__text">
-                                        <h3 className="service__text-title">Парковщик</h3>
-                                        <p>
-                                            Сотрудники занимающиеся
-                                            навигацией автомобилей на стоянках
-                                            или парковочных площадках.
-                                            Помогут ровно и аккуратно припарковать
-                                            автомобиль, а так же направят к ближайшему
-                                            свободному месту и выезду с парковки.
-                                        </p>
-                                    </div>
-                                    <img className="service__img" src="/static/img/парковщик.jpg" alt=""/>
-                                    <h3 className="service__title">Парковщик</h3>
-                                </div>
+												<div className="col-3">
+                        <div className="service">
+                            <div className="service__text">
+														<h3 className="service__text-title">Парковщик</h3>
+                                <p>
+                                    Сотрудники занимающиеся
+                                    навигацией автомобилей на стоянках
+                                    или парковочных площадках.
+                                    Помогут ровно и аккуратно припарковать
+                                    автомобиль, а так же направят к ближайшему
+                                    свободному месту и выезду с парковки.
+                                </p>
                             </div>
-                            <div className="slider__item">
-                                <div className="service">
-                                    <div className="service__text">
-                                        <h3 className="service__text-title">Промо-хостес</h3>
-                                        <p>
-                                            Гостеприимный промо-персонал,
-                                            обладающий приятной внешностью.
-                                            Их привлекают для презентации компании
-                                            на выставках, фестивалях, конферециях,
-                                            решения административных вопросов,
-                                            регистрации гостей на проекте или поддержания
-                                            имиджа мероприятия на высоком уровне.
-                                        </p>
-                                    </div>
-                                    <img className="service__img" src="/static/img/промо-хостес.jpg" alt=""/>
-                                    <h3 className="service__title">Промо-хостес</h3>
-                                </div>
-                            </div>
-                            <div className="slider__item">
-                                <div className="service">
-                                    <div className="service__text">
-                                        <h3 className="service__text-title">Промо-модель</h3>
-                                        <p>
-                                            Высококвалифицированные девушки и юноши,
-                                            которые работают на различных рекламных
-                                            акциях и занимаются продвижением
-                                            какого-либо продукта, компании или услуги,
-                                            обладают модельной внешностью.
-                                        </p>
-                                    </div>
-                                    <img className="service__img" src="/static/img/промо-модель.jpg" alt=""/>
-                                    <h3 className="service__title">Промо-модель</h3>
-                                </div>
-                            </div>
-                            <div className="slider__item">
-                                <div className="service">
-                                    <div className="service__text">
-                                        <h3 className="service__text-title">Хелпер</h3>
-                                        <p>
-                                            Универсальные сотрудники
-                                            выполняющие максимальное
-                                            количество задач организатора.
-                                            Разнесут полиграфию
-                                            по своим местам.
-                                            Соберут подарки для гостей
-                                            и выполнят
-                                            многие другие
-                                            задачи поставленные организатором.
-                                        </p>
-                                    </div>
-                                    <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                    <h3 className="service__title">Хелпер</h3>
-                                </div>
-                            </div>
-                            <div className="slider__item">
-                                <div className="service">
-                                    <div className="service__text">
-                                        <h3 className="service__text-title">Безопасность</h3>
-                                        <p>
-                                            Профессиональные сотрудники на частное
-                                            мероприятие – гарантия безопасности
-                                            участников и гостей события.
-                                            Посторонние не пройдут, любой конфликт
-                                            будет исчерпан прежде, чем начнется.
-                                        </p>
-                                    </div>
-                                    <img className="service__img" src="/static/img/безопасность.jpg" alt=""/>
-                                    <h3 className="service__title">Безопасность</h3>
-                                </div>
-                            </div>
+                            <img className="service__img" src="img/парковщик.jpg" alt=""/>
+                                <h3 className="service__title">Парковщик</h3>
                         </div>
+                    </div>
+                    <div className="col-3">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Промо-хостес</h3>
+                                <p>
+																Гостеприимный промо-персонал,
+обладающий приятной внешностью.
+Их привлекают для презентации компании
+на выставках, фестивалях, конферециях,
+решения административных вопросов,
+регистрации гостей на проекте или поддержания
+имиджа мероприятия на высоком уровне.
+                                </p>
+                            </div>
+                            <img className="service__img" src="img/промо-хостес.jpg" alt=""/>
+                                <h3 className="service__title">Промо-хостес</h3>
+                        </div>
+                    </div>
+                    <div className="col-3">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Промо-модель</h3>
+                                <p>
+                                  
+Высококвалифицированные девушки и юноши,
+которые работают на различных рекламных
+акциях и занимаются продвижением 
+какого-либо продукта, компании или услуги,
+обладают модельной внешностью.
+                                </p>
+                            </div>
+                            <img className="service__img" src="img/промо-модель.jpg" alt=""/>
+                                <h3 className="service__title">Промо-модель</h3>
+                        </div>
+                    </div>
+                    <div className="col-3">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Хелпер</h3>
+                                <p>
+                                    Универсальные сотрудники
+                                    выполняющие максимальное
+                                    количество задач организатора.
+                                    Разнесут полиграфию
+                                    по своим местам.
+                                    Соберут подарки для гостей
+                                    и выполнят
+                                    многие другие
+                                    задачи поставленные организатором.
+                                </p>
+                            </div>
+                            <img className="service__img" src="img/хелпер.jpg" alt=""/>
+                                <h3 className="service__title">Хелпер</h3>
+                        </div>
+                    </div>
 
                         <div className="services__button">
                             <button type="submit" className="btn btn-default mb-3 button2">Все услуги</button>
                         </div>
 
-                    </div>
+
                 </div>
             </div>
         </div>
