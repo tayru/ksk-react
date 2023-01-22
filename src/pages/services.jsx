@@ -6,7 +6,7 @@ const Services = () => (
                 <h1 className="page3__title">Услгуи и персонал</h1>
             </div>
             <div className="main-block__image _ibg">
-                <img src="//static/img/09c50d3e-0620-4510-a264-c49d3827a506.jfif" alt="cover"/>
+                <img src="/static/img/09c50d3e-0620-4510-a264-c49d3827a506.jfif" alt="cover"/>
             </div>
         </div>
 
