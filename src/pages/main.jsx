@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Main = () => (
     <main className="page1">
@@ -5,6 +6,8 @@ const Main = () => (
             <div className="main-block__container _container">
                 <h1 className="main-block__title">Предоставим <span>персонал</span>
                     <br/>в <span>любую точку</span> Москвы и области <br/>к назначенному часу</h1>
+
+
             </div>
             <div className="main-block__image _ibg">
                 <img src="/static/img/cover.jpg" alt="cover"/>
@@ -86,7 +89,7 @@ const Main = () => (
                         </div>
 
                         <div className="order__button">
-                            <button type="submit" className="btn btn-default mb-3 button1">Заказать</button>
+												<Link to="/contacts"><button type="submit" className="btn btn-default mb-3 button1">Заказать</button></Link>
                         </div>
 
                     </div>
@@ -172,7 +175,7 @@ const Main = () => (
                     </div>
 
                         <div className="services__button">
-                            <button type="submit" className="btn btn-default mb-3 button2">Все услуги</button>
+												<Link to="/services"><button type="submit" className="btn btn-default mb-3 button2">Все услуги</button></Link>
                         </div>
 
 
@@ -200,7 +203,7 @@ const Main = () => (
                         </div>
 
                         <video autoPlay loop muted controls className="advantages__video"
-                               src="/static/img/VID_20200816_142820 (1).mp4"></video>
+                              src="/static/img/VID_20200816_142820 (1).mp4"></video>
 
                         <h2 className="advantages__title">Организуем <span>логистику любого уровня</span> независимо от
                             условий и дальности!</h2>
@@ -231,8 +234,8 @@ const Main = () => (
                             У нас можно заказать реквизит и оборудование для мероприятий на правах аренды.
                         </div>
                         <div className="why-we__buttons">
-                            <button type="submit" className="btn btn-default mb-3 button2">Подробнее</button>
-                            <button type="submit" className="btn btn-default mb-3 button1">Портфолио</button>
+												<Link to="/about"><button type="submit" className="btn btn-default mb-3 button2">Подробнее</button></Link>
+												<Link to="/portfolio"><button type="submit" className="btn btn-default mb-3 button1">Портфолио</button></Link>
                         </div>
                     </div>
                 </div>

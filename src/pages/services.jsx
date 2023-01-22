@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Services = () => (
     <main className="page3">
@@ -16,25 +17,39 @@ const Services = () => (
                     <h2 className="services__title">Комплексные услгуи</h2>
                     <ul className="services-list">
                         <li className="services-list__item">
+													<Link className="list__item-link" to="/parking">
                             Организация парковки и КПП
+														</Link>
+                        </li>
+												<li className="services-list__item">
+													<Link className="list__item-link" to="/sanitation">
+													Организация санитарной обработки
+														</Link>
                         </li>
                         <li className="services-list__item">
-                            Организация санитарной обработки
+													<Link className="list__item-link" to="/security">
+													Организация безопасности
+														</Link>
+                        </li>
+												<li className="services-list__item">
+													<Link className="list__item-link" to="/cleaning">
+													Организация чистоты
+														</Link>
                         </li>
                         <li className="services-list__item">
-                            Организация безопасности
+													<Link className="list__item-link" to="/promo">
+													Промо-сопровождение
+														</Link>
                         </li>
                         <li className="services-list__item">
-                            Организация чистоты
+													<Link className="list__item-link" to="/logistics">
+													Логистическое сопровождение мероприятия
+														</Link>
                         </li>
                         <li className="services-list__item">
-                            Промо-сопровождение
-                        </li>
-                        <li className="services-list__item">
-                            Логистическое сопровождение мероприятия
-                        </li>
-                        <li className="services-list__item">
-                            Фото/видеосъемка
+													<Link className="list__item-link" to="/photo">
+													Фото/видеосъемка
+														</Link>
                         </li>
                     </ul>
                 </div>
@@ -380,10 +395,12 @@ const Services = () => (
                     </div>
                 </div>
             </div>
-
-            <div className="order__button">
+						<Link to="/contacts">
+							<div className="order__button">
                 <button type="submit" className="btn btn-default mb-3 button1">Оставить заявку</button>
             </div>
+						</Link>
+      
         </div>
 
 
