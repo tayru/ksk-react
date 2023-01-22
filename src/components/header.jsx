@@ -5,7 +5,7 @@ const Header = () => (
         <div className="header__container _container">
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">KSKPeople</a>
+                    <Link className="navbar-brand" to='/'>KSKPeople</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -17,16 +17,16 @@ const Header = () => (
                                 <Link className="nav-link" to='/about'> О нас</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/'>Услуги</Link>
+                                <Link className="nav-link" to='/services'>Услуги</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/'>Портфолио</Link>
+                                <Link className="nav-link" to='/portfolio'>Портфолио</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/'>Нам доверяют</Link>
+                                <Link className="nav-link" to='/trus'>Нам доверяют</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/'>Контакты</Link>
+                                <Link className="nav-link" to='/contacts'>Контакты</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="tel:+79309153808">+7 (930) 915-38-08</a>
