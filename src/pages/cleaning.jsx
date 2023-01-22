@@ -4,11 +4,11 @@ const Cleaning = () => (
 			<div className="main-block__container _container">
 				<h1 className="service-cleaning__title">Организация чистоты</h1>
 				<div className="divider">
-					<img src="/img/divider-white.svg" alt=""/>
+					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/img/service-cleaning.jpg" alt="cover"/>
+				<img src="/static/img/service-cleaning.jpg" alt="cover"/>
 			</div>
 		</div>
 
@@ -17,7 +17,7 @@ const Cleaning = () => (
 				<div className="row">
 					<div className="col">
 						<div className="divider">
-							<img src="img/stars.svg" alt=""/>
+							<img src="/static/img/stars.svg" alt=""/>
 						</div>
 						<div className="service-cleaning__text">
 							Чистота является неотъемлемым атрибутом хорошо организованного мероприятия. <br/><br/>

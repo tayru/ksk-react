@@ -4,11 +4,11 @@ const Security  = () => (
 			<div className="main-block__container _container">
 				<h1 className="service-security__title">Организация безопасности</h1>
 				<div className="divider">
-					<img src="/img/divider-white.svg" alt=""/>
+					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/img/service-security.jpg" alt="cover"/>
+				<img src="/static/img/service-security.jpg" alt="cover"/>
 			</div>
 		</div>
 
@@ -17,7 +17,7 @@ const Security  = () => (
 				<div className="row">
 					<div className="col">
 						<div className="divider">
-							<img src="img/stars.svg" alt=""/>
+							<img src="/static/img/stars.svg" alt=""/>
 						</div>
 						<div className="service-security__text">
 							Организация обеспечения безопасности состоит из проведения: <br/><br/>

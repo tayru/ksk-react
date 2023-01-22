@@ -4,7 +4,7 @@ const Contacts = () => (
 
 		<div className="feedback-second">
 			<div className="feedback-second__image _ibg">
-				<img src="/img/IMG_1534.webp" alt="cover"/>
+				<img src="/static/img/IMG_1534.webp" alt="cover"/>
 			</div>
 			<div className="feedback-second__block">
 				<h3 className="feedback-second__title2">Свяжитесь с нами, либо оставьте заявку и мы Вам перезвоним</h3>
@@ -26,11 +26,11 @@ const Contacts = () => (
 								  placeholder="Описание запроса"></textarea>
 						<div className="feedback-second__contacts">
 							<div className="feedback-second__phone">
-								<img className="phone__image" src="/img/Call-2.svg" alt=""/> <a href="tel:+79309153808">+7
+								<img className="phone__image" src="/static/img/Call-2.svg" alt=""/> <a href="tel:+79309153808">+7
 									(930) 915-38-08</a>
 							</div>
 							<div className="feedback-second__mail">
-								<img className="mail__image" src="/img/Mail.svg" alt=""/> info@kskpeople.com
+								<img className="mail__image" src="/static/img/Mail.svg" alt=""/> info@kskpeople.com
 							</div>
 
 						</div>
