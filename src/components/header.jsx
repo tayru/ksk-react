@@ -5,7 +5,7 @@ const Header = () => (
         <div className="header__container _container">
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to='/'>KSKPeople</Link>
+                    <Link className="navbar-brand" to='/'> <img className="logo-head" src="/static/img/logo-head.png" alt=""/> </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">

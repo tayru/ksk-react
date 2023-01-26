@@ -9,7 +9,7 @@ const About = () => (
                 </div>
             </div>
             <div className="main-block__image _ibg">
-                <img src="/static/img/IMG_20211019_110830.jpg" alt="cover"/>
+                <img src="/static/img/about.jpg" alt="cover"/>
             </div>
         </div>
 

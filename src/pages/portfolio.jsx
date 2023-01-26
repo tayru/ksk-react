@@ -8,7 +8,7 @@ const Portfolio = () => (
 				</div>
 			</div>
 			<div class="main-block__image _ibg">
-				<img src="/static/img/IMG_20210422_100531.jpg" alt="cover"/>
+				<img src="/static/img/portfolio.jpg" alt="cover"/>
 			</div>
 		</div>
 

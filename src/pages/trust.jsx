@@ -8,7 +8,7 @@ const Trust = () => (
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/static/img/IMG_1534.webp" alt="cover"/>
+				<img src="/static/img/trust.jpg" alt="cover"/>
 			</div>
 		</div>
 
