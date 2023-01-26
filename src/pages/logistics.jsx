@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Logistics = () => (
 	<main className="page12">
 		<div className="page__main-block main-block">
@@ -28,8 +30,8 @@ const Logistics = () => (
 		</div>
 
 		<div className="services__buttons">
-			<button type="submit" className="btn btn-default mb-3 button2">Список услуг</button>
-			<button type="submit" className="btn btn-default mb-3 button1">Заказать</button>
+		<Link to="/services"><button type="submit" className="btn btn-default mb-3 button2">Список услуг</button></Link>
+		<Link to="/contacts"><button type="submit" className="btn btn-default mb-3 button1">Заказать</button></Link>
 		</div>
 
 
