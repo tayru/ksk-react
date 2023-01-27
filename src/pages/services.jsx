@@ -60,7 +60,7 @@ const Services = () => (
             <div className="container">
                 <div className="row">
                     <h2 className="staff__title">Персонал на мероприятия</h2>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Хелпер</h3>
@@ -80,7 +80,7 @@ const Services = () => (
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Грузчик</h3>
@@ -99,7 +99,7 @@ const Services = () => (
                                 <h3 className="service__title">Грузчик</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Клинер</h3>
@@ -116,7 +116,7 @@ const Services = () => (
                                 <h3 className="service__title">Клинер</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Парковщик</h3>
@@ -133,7 +133,7 @@ const Services = () => (
                                 <h3 className="service__title">Парковщик</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Безопасность</h3>
@@ -149,7 +149,7 @@ const Services = () => (
                                 <h3 className="service__title">Безопасность</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промоутер</h3>
@@ -165,10 +165,109 @@ const Services = () => (
                                 <h3 className="service__title">Промоутер</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
+                                <h3 className="service__text-title">Промо-модель</h3>
+                                <p>
+																Высококвалифицированные девушки и юноши,
+которые работают на различных рекламных
+акциях и занимаются продвижением 
+какого-либо продукта, компании или услуги,
+обладают модельной внешностью.
+                                </p>
+                            </div>
+                            <img className="service__img" src="/static/img/promomodel-staff.jpg" alt=""/>
+                                <h3 className="service__title">Промо-модель</h3>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Промо-хостес</h3>
+                                <p>
+																Гостеприимный промо-персонал,
+обладающий приятной внешностью.
+Их привлекают для презентации компании
+на выставках, фестивалях, конферециях,
+решения административных вопросов,
+регистрации гостей на проекте или поддержания
+имиджа мероприятия на высоком уровне.
+                                </p>
+                            </div>
+                            <img className="service__img" src="/static/img/promohostess-staff.jpg" alt=""/>
+                                <h3 className="service__title">Промо-хостес</h3>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Гардеробщик</h3>
+                                <p>
+																Молодые ребята осуществляющие прием
+на хранение верхней одежды,
+головных уборов, обуви и других
+личных вещей гостей мероприятия.
+                                </p>
+                            </div>
+                            <img className="service__img" src="/static/img/cloakroom-staff.jpg" alt=""/>
+                                <h3 className="service__title">Гардеробщик</h3>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Официант</h3>
+                                <p>
+																Услуги выездных официантов и барменов
+- это простой и недорогой способ организовать
+Ваше мероприятие на высоком уровне.
+Мы имеем проверенную базу специалистов
+готовых сегодня выехать на ваш проект.
+                                </p>
+                            </div>
+                            <img className="service__img" src="/static/img/waiter-staff.jpg" alt=""/>
+                                <h3 className="service__title">Официант</h3>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Бармен/бариста</h3>
+                                <p>
+																Услуги выездных официантов и барменов
+- это простой и недорогой способ организовать
+Ваше мероприятие на высоком уровне.
+Мы имеем проверенную базу специалистов
+готовых сегодня выехать на ваш проект.
+                                </p>
+                            </div>
+                            <img className="service__img" src="/static/img/barman-staff.jpg" alt=""/>
+                                <h3 className="service__title">Бармен/бариста</h3>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Кассир</h3>
+                                <p>
+																В некотором роде, лицо мероприятия.
+Ведь часто именно они первыми встречают
+посетителей или провожают их.
+Задают им тон и настроение.
+Если Вам нужны обученные кассиры,
+обращайтесь к нам!
+
+                                </p>
+                            </div>
+                            <img className="service__img" src="/static/img/cashier-staff.jpg" alt=""/>
+                                <h3 className="service__title">Кассир</h3>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Аниматор</h3>
                                 <p>
                                     Универсальные сотрудники
                                     выполняющие максимальное
@@ -181,14 +280,14 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
+                            <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="service__title">Аниматор</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
+                                <h3 className="service__text-title">Ростовая кукла</h3>
                                 <p>
                                     Универсальные сотрудники
                                     выполняющие максимальное
@@ -201,14 +300,14 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
+                            <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="service__title">Ростовая кукла</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
+                                <h3 className="service__text-title">Массовка</h3>
                                 <p>
                                     Универсальные сотрудники
                                     выполняющие максимальное
@@ -221,14 +320,14 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
+                            <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="service__title">Массовка</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
+                                <h3 className="service__text-title">Швейцар</h3>
                                 <p>
                                     Универсальные сотрудники
                                     выполняющие максимальное
@@ -241,150 +340,11 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
+                            <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="service__title">Швейцар</h3>
                         </div>
                     </div>
-                    <div className="col-3">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
-                                <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
-                        </div>
-                    </div>
-                    <div className="col-3">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
-                                <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
-                        </div>
-                    </div>
-                    <div className="col-3">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
-                                <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
-                        </div>
-                    </div>
-                    <div className="col-3">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
-                                <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
-                        </div>
-                    </div>
-                    <div className="col-3">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
-                                <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
-                        </div>
-                    </div>
-                    <div className="col-3">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
-                                <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
-                        </div>
-                    </div>
-                    <div className="col-3">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
-                                <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
 						<Link to="/contacts">

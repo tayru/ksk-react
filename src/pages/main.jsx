@@ -101,7 +101,7 @@ const Main = () => (
             <div className="container">
                 <div className="row">
                         <h2 className="popular-services__title"> Популярные услуги </h2>
-												<div className="col-3">
+												<div className="col">
                         <div className="service">
                             <div className="service__text">
 														<h3 className="service__text-title">Парковщик</h3>
@@ -118,7 +118,7 @@ const Main = () => (
                                 <h3 className="service__title">Парковщик</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промо-хостес</h3>
@@ -136,7 +136,7 @@ const Main = () => (
                                 <h3 className="service__title">Промо-хостес</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промо-модель</h3>
@@ -153,7 +153,7 @@ const Main = () => (
                                 <h3 className="service__title">Промо-модель</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Хелпер</h3>
