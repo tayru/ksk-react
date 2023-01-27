@@ -76,48 +76,44 @@ const Services = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
+                            <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="service">
                             <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
+                                <h3 className="service__text-title">Грузчик</h3>
                                 <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
+																Сотрудники выполняющие широкий
+спектр услуг от погрузочно-разгрузочных
+работ до монтажа конструкций.
+Необходимо воздвигнуть конструкции
+нестандартных форм и размеров? Сделаем!
+Монтажники на мероприятие, способные
+горы не только свернуть, но и раскрасить
+во все цвета радуги.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
+                            <img className="service__img" src="/static/img/loader-staff.jpg" alt=""/>
+                                <h3 className="service__title">Грузчик</h3>
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="service">
                             <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
+                                <h3 className="service__text-title">Клинер</h3>
                                 <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
+																Уборка до и после мероприятия
+предусматривает очищение поверхностей
+от загрязнений сухим и мокрым способом,
+вынос мусора, чистку мебели и текстиля,
+дезинфекцию санитарных комнат, уборка
+территории, очистка интерьерного декора.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
+                            <img className="service__img" src="/static/img/cleaner-staff.jpg" alt=""/>
+                                <h3 className="service__title">Клинер</h3>
                         </div>
                     </div>
                     <div className="col-3">
@@ -133,7 +129,7 @@ const Services = () => (
                                     свободному месту и выезду с парковки.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/парковщик.jpg" alt=""/>
+                            <img className="service__img" src="/static/img/parking-staff.jpg" alt=""/>
                                 <h3 className="service__title">Парковщик</h3>
                         </div>
                     </div>
@@ -156,21 +152,17 @@ const Services = () => (
                     <div className="col-3">
                         <div className="service">
                             <div className="service__text">
-                                <h3 className="service__text-title">Хелпер</h3>
+                                <h3 className="service__text-title">Промоутер</h3>
                                 <p>
-                                    Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
+                                    
+Молодые юноши и девушки
+занимающиеся рекламой компании
+или товара, события или услуги,
+опросом гостей и BTL-акциями.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="service__title">Хелпер</h3>
+                            <img className="service__img" src="/static/img/promoter-staff.jpg" alt=""/>
+                                <h3 className="service__title">Промоутер</h3>
                         </div>
                     </div>
                     <div className="col-3">

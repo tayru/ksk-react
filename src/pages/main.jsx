@@ -114,7 +114,7 @@ const Main = () => (
                                     свободному месту и выезду с парковки.
                                 </p>
                             </div>
-                            <img className="service__img" src="static/img/парковщик.jpg" alt=""/>
+                            <img className="service__img" src="static/img/parking-staff.jpg" alt=""/>
                                 <h3 className="service__title">Парковщик</h3>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ const Main = () => (
 имиджа мероприятия на высоком уровне.
                                 </p>
                             </div>
-                            <img className="service__img" src="static/img/промо-хостес.jpg" alt=""/>
+                            <img className="service__img" src="static/img/promohostess-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-хостес</h3>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ const Main = () => (
 обладают модельной внешностью.
                                 </p>
                             </div>
-                            <img className="service__img" src="static/img/промо-модель.jpg" alt=""/>
+                            <img className="service__img" src="static/img/promomodel-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-модель</h3>
                         </div>
                     </div>
@@ -169,7 +169,7 @@ const Main = () => (
                                     задачи поставленные организатором.
                                 </p>
                             </div>
-                            <img className="service__img" src="static/img/хелпер.jpg" alt=""/>
+                            <img className="service__img" src="static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                         </div>
                     </div>
