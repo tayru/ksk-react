@@ -18,7 +18,7 @@ const Services = () => (
                     <ul className="services-list">
                         <li className="services-list__item">
 													<Link className="list__item-link" to="/parking">
-                            Организация парковки и КПП
+                            Организация парковки и КПП <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
 														</Link>
                         </li>
 												<li className="services-list__item">

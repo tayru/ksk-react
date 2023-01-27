@@ -60,11 +60,11 @@ const About = () => (
         </div>
 
 
-        <div className="staff">
+        <div className="team">
             <div className="container">
                 <div className="row">
-                    <h2 className="staff__title">Наша команда</h2>
-                    <div className="col-3">
+                    <h2 className="team__title">Наша команда</h2>
+                    <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Имя Фамилия</h3>
@@ -76,7 +76,7 @@ const About = () => (
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Имя Фамилия</h3>
@@ -88,7 +88,7 @@ const About = () => (
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Имя Фамилия</h3>
@@ -100,7 +100,7 @@ const About = () => (
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Имя Фамилия</h3>
@@ -112,7 +112,7 @@ const About = () => (
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Имя Фамилия</h3>
@@ -124,7 +124,7 @@ const About = () => (
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Имя Фамилия</h3>
@@ -136,7 +136,7 @@ const About = () => (
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Имя Фамилия</h3>
@@ -148,7 +148,7 @@ const About = () => (
                                 <h3 className="staff__title2">Имя Фамилия</h3>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Имя Фамилия</h3>
