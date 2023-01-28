@@ -78,6 +78,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
+                            <div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">

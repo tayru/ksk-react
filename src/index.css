@@ -453,6 +453,14 @@ body {
 	
 }
 
+.service__text p {
+  padding: 10px 10px;
+}
+
+.service__text-title {
+  margin-top: 10px;
+}
+
 /* margin: 22px 22px 22px 22px; */
 
 .service__title {
@@ -461,7 +469,19 @@ body {
   width: 100%;
   text-align: center;
   color: var(--white);
+
+  z-index: 1;
+
 }
+.service__title-back {
+  background: linear-gradient(180deg, rgba(0, 38, 71, 0) 68.23%, #002647 100%);
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: 0;
+}
+
 
 .service {
   width: 255px;
@@ -902,7 +922,9 @@ body {
 }
 /* ------------------------------------------------------------------------ */
 .angle-services {
-	
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
 
 .service-parking__title {
