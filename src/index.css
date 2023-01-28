@@ -401,6 +401,7 @@ body {
   color: var(--dark-blue);
   text-align: center;
   margin-top: 60px;
+	margin-bottom: 40px;
 }
 
 .slider {
@@ -842,8 +843,21 @@ body {
 	text-align: right;
 }
 
+.footer__phone {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 190px;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
 .footer__mail {
-  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 190px;
+  margin-left: auto;
+	margin-top: 10px;
+  justify-content: flex-end;
 }
 /* ------------------------------------------------------------------------ */
 .about-us {
@@ -1134,18 +1148,13 @@ body {
 
 .portfolio__block {
 }
-.footer__phone {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 190px;
-  margin-left: auto;
-  justify-content: flex-end;
-}
 
-.footer__mail {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 190px;
-  margin-left: auto;
-  justify-content: flex-end;
+.slider__title {
+	font-family: 'Ubuntu';
+	font-weight: 500;
+	font-size: 40px;
+	color: var(--dark-blue);
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }

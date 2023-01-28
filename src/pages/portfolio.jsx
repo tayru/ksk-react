@@ -25,7 +25,7 @@ const Portfolio = () => (
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-
+					<h2 class="slider__title">Фестивали</h2>
 						<div class="slider-portfolio">
 							<Slider {...settings}>
 							<div class="slider-portfolio__item">
@@ -48,6 +48,7 @@ const Portfolio = () => (
 					</div>
 
 					<div class="col-sm-12">
+					<h2 class="slider__title">Городские праздники</h2>
 						<div class="slider-portfolio">
 							<Slider {...settings}>
 								<div class="slider-portfolio__item">
@@ -70,6 +71,7 @@ const Portfolio = () => (
 					</div>
 
 					<div class="col-sm-12">
+					<h2 class="slider__title">Выставки и форумы</h2>
 						<div class="slider-portfolio">
 							<Slider {...settings}>
 								<div class="slider-portfolio__item">
@@ -92,6 +94,7 @@ const Portfolio = () => (
 					</div>
 
 					<div class="col-sm-12">
+					<h2 class="slider__title">Закрытые мероприятия</h2>
 						<div class="slider-portfolio">
 							<Slider {...settings}>
 								<div class="slider-portfolio__item">
