@@ -14,7 +14,7 @@ const Contacts = () => (
 							<input type="text" className="feedback-input" placeholder="Телефон"/>
 								<input type="text" className="feedback-input" placeholder="Элекронная почта"/>
 									<div className=" feedback-second__button">
-										<button type="submit" className="btn btn-default mb-3 button1">Оставить заявку
+										<button type="submit" className="btn-default mb-3 button1">Оставить заявку
 										</button>
 									</div>
 									<h2 className="feedback__text">

@@ -24,7 +24,7 @@ const Main = () => (
                         <input type="phone" className="feedback-input" placeholder="Ваш телефон"/>
                     </div>
                     <div className="feedback-first__button">
-                        <button type="submit" className="btn btn-default mb-3 button1">Перезвоните мне</button>
+                        <button type="submit" className="btn-default mb-3 button1">Перезвоните мне</button>
                     </div>
                 </div>
                 <h2 className="feedback__text">
@@ -179,7 +179,7 @@ const Main = () => (
                     </div>
 
                         <div className="services__button">
-												<Link to="/services"><button type="submit" className="btn btn-default mb-3 button2">Все услуги</button></Link>
+												<Link to="/services"><button type="submit" className="btn-default mb-3 button2">Все услуги</button></Link>
                         </div>
 
 
@@ -238,8 +238,8 @@ const Main = () => (
                             У нас можно заказать реквизит и оборудование для мероприятий на правах аренды.
                         </div>
                         <div className="why-we__buttons">
-												<Link to="/about"><button type="submit" className="btn btn-default mb-3 button2">Подробнее</button></Link>
-												<Link to="/portfolio"><button type="submit" className="btn btn-default mb-3 button1">Портфолио</button></Link>
+												<Link to="/about"><button type="submit" className="btn-default mb-3 button2">Подробнее</button></Link>
+												<Link to="/portfolio"><button type="submit" className="btn-default mb-3 button1">Портфолио</button></Link>
                         </div>
                     </div>
                 </div>
@@ -259,7 +259,7 @@ const Main = () => (
                         <input type="text" className="feedback-input" placeholder="Телефон"/>
                         <input type="text" className="feedback-input" placeholder="Элекронная почта"/>
                         <div className=" feedback-second__button">
-                            <button type="submit" className="btn btn-default mb-3 button1">Оставить заявку
+                            <button type="submit" className="btn-default mb-3 button1">Оставить заявку
                             </button>
                         </div>
                         <h2 className="feedback__text">

@@ -30,8 +30,8 @@ const Photo = () => (
 		</div>
 
 		<div className="services__buttons">
-		<Link to="/services"><button type="submit" className="btn btn-default mb-3 button2">Список услуг</button></Link>
-		<Link to="/contacts"><button type="submit" className="btn btn-default mb-3 button1">Заказать</button></Link>
+		<Link to="/services"><button type="submit" className="btn-default mb-3 button2">Список услуг</button></Link>
+		<Link to="/contacts"><button type="submit" className="btn-default mb-3 button1">Заказать</button></Link>
 		</div>
 
 

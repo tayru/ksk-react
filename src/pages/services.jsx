@@ -365,7 +365,7 @@ const Services = () => (
             </div>
 						<Link to="/contacts">
 							<div className="order__button">
-                <button type="submit" className="btn btn-default mb-3 button1">Оставить заявку</button>
+                <button type="submit" className="btn-default mb-3 button1">Оставить заявку</button>
             </div>
 						</Link>
       

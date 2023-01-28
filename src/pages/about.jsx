@@ -50,7 +50,7 @@ const About = () => (
                         <input type="phone" className="feedback-input" placeholder="Ваш телефон"/>
                     </div>
                     <div className="feedback-first__button">
-                        <button type="submit" className="btn btn-default mb-3 button1">Перезвоните мне</button>
+                        <button type="submit" className="btn-default mb-3 button1">Перезвоните мне</button>
                     </div>
                 </div>
                 <h2 className="feedback__text">
