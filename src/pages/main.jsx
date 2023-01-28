@@ -89,7 +89,7 @@ const Main = () => (
                         </div>
 
                         <div className="order__button">
-												<Link to="/contacts"><button type="submit" className="btn btn-default mb-3 button1">Заказать</button></Link>
+												<Link to="/contacts"><button type="submit" className="btn-default mb-3 button1">Заказать</button></Link>
                         </div>
 
                     </div>
