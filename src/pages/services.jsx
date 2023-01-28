@@ -23,32 +23,32 @@ const Services = () => (
                         </li>
 												<li className="services-list__item">
 													<Link className="list__item-link" to="/sanitation">
-													Организация санитарной обработки
+													Организация санитарной обработки <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
 														</Link>
                         </li>
                         <li className="services-list__item">
 													<Link className="list__item-link" to="/security">
-													Организация безопасности
+													Организация безопасности <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
 														</Link>
                         </li>
 												<li className="services-list__item">
 													<Link className="list__item-link" to="/cleaning">
-													Организация чистоты
+													Организация чистоты <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
 														</Link>
                         </li>
                         <li className="services-list__item">
 													<Link className="list__item-link" to="/promo">
-													Промо-сопровождение
+													Промо-сопровождение <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
 														</Link>
                         </li>
                         <li className="services-list__item">
 													<Link className="list__item-link" to="/logistics">
-													Логистическое сопровождение мероприятия
+													Логистическое сопровождение мероприятия <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
 														</Link>
                         </li>
                         <li className="services-list__item">
 													<Link className="list__item-link" to="/photo">
-													Фото/видеосъемка
+													Фото/видеосъемка <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
 														</Link>
                         </li>
                     </ul>
@@ -98,6 +98,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/loader-staff.jpg" alt=""/>
                                 <h3 className="service__title">Грузчик</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -115,6 +116,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/cleaner-staff.jpg" alt=""/>
                                 <h3 className="service__title">Клинер</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -132,6 +134,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/parking-staff.jpg" alt=""/>
                                 <h3 className="service__title">Парковщик</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -148,6 +151,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/безопасность.jpg" alt=""/>
                                 <h3 className="service__title">Безопасность</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -164,6 +168,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/promoter-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промоутер</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -180,6 +185,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/promomodel-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-модель</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -198,6 +204,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/promohostess-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-хостес</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -213,6 +220,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/cloakroom-staff.jpg" alt=""/>
                                 <h3 className="service__title">Гардеробщик</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -229,6 +237,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/waiter-staff.jpg" alt=""/>
                                 <h3 className="service__title">Официант</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -245,6 +254,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/barman-staff.jpg" alt=""/>
                                 <h3 className="service__title">Бармен/бариста</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -263,6 +273,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/cashier-staff.jpg" alt=""/>
                                 <h3 className="service__title">Кассир</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -283,6 +294,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Аниматор</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -303,6 +315,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Ростовая кукла</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -323,6 +336,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Массовка</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -343,6 +357,7 @@ const Services = () => (
                             </div>
                             <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Швейцар</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                 
