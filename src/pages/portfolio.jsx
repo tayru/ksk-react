@@ -25,23 +25,7 @@ const Portfolio = () => (
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<Slider {...settings}>
-							<div className="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div className="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div className="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div className="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div className="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-						</Slider>
+
 						<div class="slider-portfolio">
 							<Slider {...settings}>
 							<div class="slider-portfolio__item">

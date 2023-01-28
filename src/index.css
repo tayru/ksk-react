@@ -436,6 +436,10 @@ body {
 }
 
 
+.slider-portfolio {
+  margin-bottom: 65px;
+}
+
 .slick-arrow.slick-prev {
   left: 0;
   background: url(/public/static/img/Angle-left-dark-blue.svg) 0 0 / 100% no-repeat;
@@ -1123,6 +1127,7 @@ body {
 }
 
 .portfolio {
+  margin-top: 65px;
 }
 
 .portfolio__block {
