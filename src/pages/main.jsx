@@ -116,6 +116,7 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="static/img/parking-staff.jpg" alt=""/>
                                 <h3 className="service__title">Парковщик</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -134,6 +135,7 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="static/img/promohostess-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-хостес</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -151,6 +153,7 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="static/img/promomodel-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-модель</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
                     <div className="col">
@@ -171,6 +174,7 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
+																<div className="service__title-back"></div>
                         </div>
                     </div>
 
