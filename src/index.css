@@ -246,7 +246,7 @@ body {
   color: var(--white);
   max-width: 172px;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .page3__title {
@@ -1102,6 +1102,7 @@ body {
   color: var(--white);
   max-width: 440px;
   margin: auto;
+	margin-top: 200px;
 }
 
 .we-are-trusted__title2 {
@@ -1124,6 +1125,7 @@ body {
   color: var(--white);
   max-width: 343px;
   margin: auto;
+	margin-top: 200px;
 }
 
 .portfolio {
