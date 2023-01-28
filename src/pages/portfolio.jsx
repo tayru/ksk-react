@@ -1,3 +1,12 @@
+import Slider from "react-slick";
+const settings = {
+	dots: true,
+	infinite: true,
+	speed: 500,
+	slidesToShow: 1,
+	slidesToScroll: 1
+};
+
 const Portfolio = () => (
 	<main class="page4">
 		<div class="page__main-block main-block">
@@ -16,7 +25,25 @@ const Portfolio = () => (
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
+						<Slider {...settings}>
+							<div className="slider-portfolio__item">
+								<img src="/static/img/festivals.jpg" alt=""/>
+							</div>
+							<div className="slider-portfolio__item">
+								<img src="/static/img/festivals.jpg" alt=""/>
+							</div>
+							<div className="slider-portfolio__item">
+								<img src="/static/img/festivals.jpg" alt=""/>
+							</div>
+							<div className="slider-portfolio__item">
+								<img src="/static/img/festivals.jpg" alt=""/>
+							</div>
+							<div className="slider-portfolio__item">
+								<img src="/static/img/festivals.jpg" alt=""/>
+							</div>
+						</Slider>
 						<div class="slider-portfolio">
+							<Slider {...settings}>
 							<div class="slider-portfolio__item">
 								<img src="/static/img/festivals.jpg" alt=""/>
 							</div>
@@ -32,66 +59,73 @@ const Portfolio = () => (
 							<div class="slider-portfolio__item">
 								<img src="/static/img/festivals.jpg" alt=""/>
 							</div>
+							</Slider>
 						</div>
 					</div>
 
 					<div class="col-sm-12">
 						<div class="slider-portfolio">
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
+							<Slider {...settings}>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+							</Slider>
 						</div>
 					</div>
 
 					<div class="col-sm-12">
 						<div class="slider-portfolio">
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
+							<Slider {...settings}>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+							</Slider>
 						</div>
 					</div>
 
 					<div class="col-sm-12">
 						<div class="slider-portfolio">
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
-							</div>
+							<Slider {...settings}>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/festivals.jpg" alt=""/>
+								</div>
+							</Slider>
 						</div>
 					</div>
 
