@@ -8,7 +8,7 @@ const About = () => (
                     <img src="/static/img/divider-white.svg" alt=""/>
                 </div>
             </div>
-            <div className="main-block__image _ibg">
+            <div className="main-block__image _ibg about-cover">
                 <img src="/static/img/about.jpg" alt="cover"/>
             </div>
         </div>
