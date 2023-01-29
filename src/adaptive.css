@@ -59,6 +59,13 @@
 }
 /* ------------------------------------------------------------------------ */
 @media (max-width: 767px) {
+
+    .feedback-first, .feedback-first__about-us, .feedback-second__block {
+        left: auto;
+        -webkit-transform: none;
+        transform: none;
+        max-width: 100%;
+    }
 	
 }
 /* ------------------------------------------------------------------------ */
