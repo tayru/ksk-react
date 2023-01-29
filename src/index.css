@@ -1125,6 +1125,7 @@ body {
 
 .services__buttons {
   display: flex;
+	flex-wrap: wrap;
   justify-content: center;
   margin-top: 60px;
   margin-bottom: 60px;

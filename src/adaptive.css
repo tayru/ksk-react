@@ -133,9 +133,9 @@
 	}
 
 	.why-we__text {
-    margin-top: 60px;
+    margin-top: 30px;
 	}
-		
+
 		.divider-dark {
 			margin-top: auto;
 		}
@@ -375,6 +375,7 @@ text-align: center;
 				
 		}
 
+
 		
 }
 /* ------------------------------------------------------------------------ */
@@ -385,5 +386,24 @@ text-align: center;
     
 }
 
+.why-we__buttons {
+	justify-content: space-around;
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.why-we__buttons .button2 {
+	margin-right: 0px;
+}
+
+.services__buttons {
+	justify-content: space-around;
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.services__buttons  .button2 {
+	margin-right: 0px;
+}
 
 }
