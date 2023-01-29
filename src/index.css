@@ -705,9 +705,14 @@ body {
 .divider {
   display: flex;
   justify-content: center;
-  margin-top: 20px;;
+  margin-top: 20px;
 }
 
+.divider-dark {
+	display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
 
 /* ------------------------------------------------------------------------ */
 .feedback-second {

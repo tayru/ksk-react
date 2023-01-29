@@ -220,11 +220,11 @@ const Main = () => (
         <div className="why-we">
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col why-we__block">
                         <img className="why-we__image" src="/static/img/Rectangle 22.png" alt=""/>
                     </div>
                     <div className="col">
-                        <div className="divider">
+                        <div className="divider-dark">
                             <img src="/static/img/divider-dark.svg" alt=""/>
                         </div>
                         <div className="why-we__text">

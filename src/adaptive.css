@@ -24,15 +24,50 @@
         margin-top: 40px;
     }
 
+		.feedback-second__title {
+			font-size: 30px;
+			margin-bottom: 30px;
+		}
+
+		.simple-and-fast__title {
+			font-size: 30px;
+		
+	}
+
     .simple-and-fast__steps {
         margin-top: 20px;
 
     }
 
+		.order__button {
+			margin-top: 30px;
+			margin-bottom: 30px;
+	}
+
+		.popular-services__title {
+			font-size: 30px;
+			margin-top: 30px;
+			margin-bottom: 20px;
+	}
+
+		.services__button {
+			margin-top: 30px;
+			margin-bottom: 30px;
+	}
     .advantage {
         width: 100%;
         max-width: 100%;
     }
+
+		.advantages__title {
+      font-size: 24px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		.list-advantages {
+			margin-top: 30px;
+		}
 
     .advantage__image {
         max-width: 50px;
@@ -56,6 +91,22 @@
         text-align: center;
     }
 
+		.why-we__block {
+			flex: none;
+		}
+
+		.why-we__image {
+			margin: 30px auto;
+	}
+
+	.why-we__text {
+    margin-top: 60px;
+	}
+		
+		.divider-dark {
+			margin-top: auto;
+		}
+		
 }
 /* ------------------------------------------------------------------------ */
 @media (max-width: 767px) {
@@ -128,8 +179,33 @@
     .feedback-first {
         top: 370px;
     }
+
+		.popular-services__title {
+			font-size: 30px;
+			margin-top: 30px;
+			margin-bottom: 20px;
+	}
+
+		.services__button {
+			margin-top: 30px;
+			margin-bottom: 30px;
+	}
+
+		.list-advantages {
+			margin-top: 30px;
+		}
+
+		.advantages__title {
+      font-size: 24px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+
 }
 /* ------------------------------------------------------------------------ */
 @media (max-width: 479px) {
 	
+
+
 }
