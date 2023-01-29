@@ -138,7 +138,59 @@
 		.divider-dark {
 			margin-top: auto;
 		}
-		
+
+		.about-us__title {
+			font-size: 24px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+	}
+
+	.about-us__text {
+    font-size: 20px;
+	}
+
+	.page2__title {
+    font-size: 40px;
+    text-align: center;
+}
+
+	.page3__title {
+    font-size: 40px;
+		text-align: center;
+}
+
+.services__title {
+	font-size: 30px;
+	margin-top: 30px;
+	
+}
+
+.services-list {
+    margin-top: 30px;
+}
+
+.services__block {
+	min-height: 600px;
+	
+}
+
+.staff__title {
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.we-are-trusted__title {
+	font-size: 40px;
+text-align: center;
+}
+
+.we-are-trusted__title2 {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 }
 /* ------------------------------------------------------------------------ */
 @media (max-width: 767px) {
@@ -232,6 +284,7 @@
 			margin-top: 30px;
 			margin-bottom: 30px;
 		}
+
 
 
 }
