@@ -1140,7 +1140,8 @@ body {
   font-size: 40px;
   color: var(--dark-blue);
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 .we-are-trusted__block {
@@ -1150,11 +1151,16 @@ body {
 .trusted-logo {
   display: flex;
   flex-wrap: wrap;
+	justify-content: center;
 }
 
 .trusted-logo__item {
   max-width: 232px;
   object-fit: contain;
+	margin-right: 30px;
+    margin-bottom: 30px;
+		margin-top: 30px;
+		margin-top: 30px;
 }
 /* ------------------------------------------------------------------------ */
 .portfolio__title {
@@ -1168,7 +1174,7 @@ body {
 }
 
 .portfolio {
-  margin-top: 65px;
+  margin-top: 30px;
 }
 
 .portfolio__block {

@@ -32,8 +32,9 @@
 
 
     .main-block__title {
-        font-size: 42px;
-        width: fit-content;
+			font-size: 50px;
+			line-height: initial;
+			text-align: center;
     }
 
     .feedback-first__block-flex {
@@ -196,6 +197,14 @@ text-align: center;
 	text-align: center;
 }
 
+.portfolio {
+  margin-top: 10px;
+}
+
+.slider__title {
+	font-size: 30px;
+}
+
 }
 /* ------------------------------------------------------------------------ */
 @media (max-width: 767px) {
@@ -243,7 +252,7 @@ text-align: center;
     }
 
     .main-block__title {
-        font-size: 28px;
+        font-size: 40px;
         line-height: initial;
     }
 
@@ -295,7 +304,11 @@ text-align: center;
 }
 /* ------------------------------------------------------------------------ */
 @media (max-width: 479px) {
-	
+	.main-block__title {
+    font-size: 30px;
+		text-align: center;
+    
+}
 
 
 }
