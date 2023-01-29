@@ -1,3 +1,13 @@
+:root {
+  --white: #fff;
+  --grey: #E7E7E7;
+  --light-blue: #0072FF;
+  --blue: #0052B8;
+  --dark-blue: #002647;
+  --orange: #FF4D00;
+  --red: #FF0000;
+}
+
 @media (max-width: 992px) {
 .navbar-expand-lg {
 	background: linear-gradient(0deg, rgba(0, 38, 71, 0.9), rgba(0, 38, 71, 0.9));
@@ -7,6 +17,17 @@
 	text-align: center;
 	margin: auto;
 }
+
+.navbar-toggler {
+	color: var(--white);
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+}
+
+
+.
 
     .main-block__title {
         font-size: 42px;
