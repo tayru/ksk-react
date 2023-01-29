@@ -205,6 +205,76 @@ text-align: center;
 	font-size: 30px;
 }
 
+.service-parking__title {
+	font-size: 40px;
+	text-align: center;
+}
+
+.service-parking__text {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.service-sanitation__title {
+  font-size: 40px;
+	text-align: center;
+}
+
+.service-sanitation__text {
+  font-size: 20px;
+	margin-top: 20px;
+}
+
+.service-security__title {
+  font-size: 40px;
+	text-align: center;
+}
+
+.service-security__text {
+  font-size: 20px;
+	margin-top: 20px;
+}
+
+.service-cleaning__title {
+  font-size: 40px;
+	text-align: center;
+}
+
+.service-cleaning__text {
+  font-size: 20px;
+	margin-top: 20px;
+}
+
+.service-promo__title {
+  font-size: 40px;
+	text-align: center;
+}
+
+.service-promo__text {
+  font-size: 20px;
+	margin-top: 20px;
+}
+
+.service-logistics__title {
+  font-size: 40px;
+	text-align: center;
+}
+
+.service-logistics__text {
+  font-size: 20px;
+	margin-top: 20px;
+}
+
+.service-photo__title {
+  font-size: 40px;
+	text-align: center;
+}
+
+.service-photo__text {
+  font-size: 20px;
+	margin-top: 20px;
+}
+
 }
 /* ------------------------------------------------------------------------ */
 @media (max-width: 767px) {
@@ -305,7 +375,7 @@ text-align: center;
 				
 		}
 
-
+		
 }
 /* ------------------------------------------------------------------------ */
 @media (max-width: 479px) {

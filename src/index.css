@@ -983,12 +983,14 @@ body {
   color: var(--white);
   max-width: 882px;
   margin: auto;
+	margin-top: 200px;
 }
 
 .service-parking__text {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+	margin-top: 40px;
 }
 
 .service-parking__text span {
@@ -1002,12 +1004,14 @@ body {
   color: var(--white);
   max-width: 1100px;
   margin: auto;
+	margin-top: 200px;
 }
 
 .service-sanitation__text {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+	margin-top: 40px;
 }
 
 .service-sanitation__text span {
@@ -1021,12 +1025,14 @@ body {
   color: var(--white);
   max-width: 830px;
   margin: auto;
+	margin-top: 200px;
 }
 
 .service-security__text {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+	margin-top: 40px;
 }
 
 .service-security__text span {
@@ -1040,12 +1046,14 @@ body {
   color: var(--white);
   max-width: 675px;
   margin: auto;
+	margin-top: 200px;
 }
 
 .service-cleaning__text {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+	margin-top: 40px;
 }
 
 .service-cleaning__text span {
@@ -1059,12 +1067,14 @@ body {
   color: var(--white);
   max-width: 720px;
   margin: auto;
+	margin-top: 200px;
 }
 
 .service-promo__text {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+	margin-top: 40px;
 }
 
 .service-promo__text span {
@@ -1078,12 +1088,14 @@ body {
   color: var(--white);
   max-width: 1380px;
   margin: auto;
+	margin-top: 200px;
 }
 
 .service-logistics__text {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+	margin-top: 40px;
 }
 
 .service-logistics__text span {
@@ -1097,12 +1109,14 @@ body {
   color: var(--white);
   max-width: 580px;
   margin: auto;
+	margin-top: 200px;
 }
 
 .service-photo__text {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+	margin-top: 40px;
 }
 
 .service-photo__text span {
