@@ -133,6 +133,7 @@ body {
   color: var(--dark-blue);
   line-height: 18px;
   text-align: center;
+  background: none;
 }
 
 .button2:hover, .button2:active {
