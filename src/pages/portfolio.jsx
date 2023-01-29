@@ -29,19 +29,52 @@ const Portfolio = () => (
 						<div class="slider-portfolio">
 							<Slider {...settings}>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
+								<img src="/static/img/festivals2.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
+								<img src="/static/img/festivals1.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
+								<img src="/static/img/festivals3.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
+								<img src="/static/img/festivals4.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals.jpg" alt=""/>
+								<img src="/static/img/festivals5.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals6.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals7.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals8.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals9.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals10.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals11.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals12.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals13.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals14.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals15.jpg" alt=""/>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals16.jpg" alt=""/>
 							</div>
 							</Slider>
 						</div>
@@ -52,19 +85,19 @@ const Portfolio = () => (
 						<div class="slider-portfolio">
 							<Slider {...settings}>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/city1.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/city2.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/city3.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/city4.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/city5.jpg" alt=""/>
 								</div>
 							</Slider>
 						</div>
@@ -75,19 +108,43 @@ const Portfolio = () => (
 						<div class="slider-portfolio">
 							<Slider {...settings}>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/forums1.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/forums2.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/forums3.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/forums4.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/forums5.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/forums6.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/forums7.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/forums8.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/forums9.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/forums10.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/forums11.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/forums12.jpg" alt=""/>
+								</div>
+								<div class="slider-portfolio__item">
+									<img src="/static/img/forums13.jpg" alt=""/>
 								</div>
 							</Slider>
 						</div>
@@ -98,19 +155,16 @@ const Portfolio = () => (
 						<div class="slider-portfolio">
 							<Slider {...settings}>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/events1.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/events2.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/events3.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
-								</div>
-								<div class="slider-portfolio__item">
-									<img src="/static/img/festivals.jpg" alt=""/>
+									<img src="/static/img/events4.jpg" alt=""/>
 								</div>
 							</Slider>
 						</div>
