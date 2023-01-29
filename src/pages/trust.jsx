@@ -20,11 +20,13 @@ const Trust = () => (
 							<h2 className="we-are-trusted__title2">
 								Наши клиенты
 							</h2>
-							<img src="/static/img/АНО ВОСТОК 1.png" alt=""/>
-								<img src="/static/img/ООО МИДЭКСПО-ВЫСТАВКИ И ЯРМАРКИ 1.png" alt=""/>
-									<img src="/static/img/АО КСК Ивановское 1.png" alt=""/>
-										<img src="/static/img/АНО Центр развития туризма Московской области 1.png" alt=""/>
-											<img src="/static/img/ООО МИР ХЭППИ 1.png" alt=""/>
+							<section className="trusted-logo">
+							<img  className="trusted-logo__item" src="/static/img/АНО ВОСТОК 1.png" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/ООО МИДЭКСПО-ВЫСТАВКИ И ЯРМАРКИ 1.png" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/АО КСК Ивановское 1.png" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/АНО Центр развития туризма Московской области 1.png" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/ООО МИР ХЭППИ 1.png" alt=""/>
+							</section>
 						</div>
 					</div>
 				</div>

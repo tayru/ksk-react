@@ -1,4 +1,60 @@
 @media (max-width: 992px) {
+    .main-block__title {
+        font-size: 42px;
+        width: fit-content;
+    }
+
+    .feedback-first__block-flex {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .feedback-first__block {
+        margin-top: 40px;
+        margin-left: 41px;
+        margin-right: 40px;
+    }
+
+
+    .feedback-first {
+        width: max-content;
+        max-width: 648px;
+        top: 460px;
+    }
+    .feedback-first__button {
+        margin-top: 40px;
+    }
+
+    .simple-and-fast__steps {
+        margin-top: 20px;
+
+    }
+
+    .advantage {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .advantage__image {
+        max-width: 50px;
+    }
+
+    .advantages__video {
+
+        margin-top: 40px;
+    }
+    .step img{
+
+        max-width: 50px;
+    }
+
+    .icon-next {
+        max-width: 30px;
+    }
+
+    .service-sanitation__title {
+
+        text-align: center;
+    }
 
 }
 /* ------------------------------------------------------------------------ */

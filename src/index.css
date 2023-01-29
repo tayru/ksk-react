@@ -431,6 +431,12 @@ body {
 .slick-slide {
 }
 
+.slider-portfolio__item {
+  display: inline-flex!important;
+  align-items: center;
+  justify-content: center;
+}
+
 .slider-portfolio__item img {
   border-radius: 15px;
 
@@ -1130,6 +1136,16 @@ body {
 
 .we-are-trusted__block {
 
+}
+
+.trusted-logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trusted-logo__item {
+  max-width: 232px;
+  object-fit: contain;
 }
 /* ------------------------------------------------------------------------ */
 .portfolio__title {
