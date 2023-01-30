@@ -696,9 +696,10 @@ body {
 }
 .why-we__buttons {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 60px;
-  margin-bottom: 60px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    justify-content: center;
 }
 
 .why-we__buttons .button2 {
@@ -803,13 +804,11 @@ body {
   opacity: 0.5;
 }
 
-.feedback-second__phone {
-  /* display: flex;
-  justify-content: center; */
+.feedback-second__phone a {
+  color: var(--dark-blue);
 }
 .feedback-second__mail {
-  /* display: flex;
-  justify-content: center; */
+  
   margin-top: 10px;
 }
 
@@ -864,6 +863,10 @@ body {
   width: 190px;
   margin-left: auto;
   justify-content: flex-end;
+}
+
+.footer__phone a {
+	color: var(--white);
 }
 
 .footer__mail {
