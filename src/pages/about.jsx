@@ -67,97 +67,119 @@ const About = () => (
                     <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Имя Фамилия</h3>
+                                <h3 className="staff__text-title">Картамышев Алексей <br /><br /> Должность: Ведущий логист проектов</h3>
                                 <p>
-                                    Цитата
+																«Наша цель — это качество. 
+Я твёрдо верю, что только качественное сопровождение мероприятие позволит поднять его статусность в глазах гостей и организаторов мероприятия»
+
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="staff__title2">Имя Фамилия</h3>
+                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="staff__title2">Картамышев Алексей </h3>
+																<div className="staff__card-back"></div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Имя Фамилия</h3>
+                                <h3 className="staff__text-title">Комарский Никита <br /><br /> Должность: Управляющий партнёр</h3>
                                 <p>
-                                    Цитата
+																«Думать о людях в своей работе. 
+Наша работа — приносить наиболее желанный комфорт нашим клиентам и подрядчикам. Мы прежде всего думаем о нашей репутации как надежной компании»
+
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="staff__title2">Имя Фамилия</h3>
+                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="staff__title2">Комарский Никита</h3>
+																<div className="staff__card-back"></div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Имя Фамилия</h3>
+                                <h3 className="staff__text-title">Самсонов Владимир <br /><br /> Должность: Исполнительный директор</h3>
                                 <p>
-                                    Цитата
+																«Стоит быть влюбленным в свою работу. 
+Работа должна приносить радость, должна приносить удовольствие и повышать Ваше качество жизни и качество жизни Ваших коллег. Event — это именно та область, которая позволяет любить свою работу» 
+
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="staff__title2">Имя Фамилия</h3>
+                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="staff__title2">Самсонов Владимир</h3>
+																<div className="staff__card-back"></div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Имя Фамилия</h3>
+                                <h3 className="staff__text-title">Грибанов Виталий <br /><br /> Должность: Ведущий специалист организации и реализации парковочного пространства. </h3>
                                 <p>
-                                    Цитата
+																«Всегда найдётся свободное место. 
+Задача организации парковки одна из самых главных во время проведения фестивалей. Огромный опыт позволяет разрегулировать практически любую ситуацию»
+
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="staff__title2">Имя Фамилия</h3>
+                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="staff__title2">Грибанов Виталий</h3>
+																<div className="staff__card-back"></div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Имя Фамилия</h3>
+                                <h3 className="staff__text-title">Галыка Роман <br /><br /> Должность: Руководитель направления обеспечения безопасности</h3>
                                 <p>
-                                    Цитата
+																«С вопроса обеспечения безопасности мероприятия начинается цеха его успешной реализации» 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="staff__title2">Имя Фамилия</h3>
+                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="staff__title2">Галыка Роман</h3>
+																<div className="staff__card-back"></div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Имя Фамилия</h3>
+                                <h3 className="staff__text-title">Копосов Пётр <br /><br /> Должность: Менеджер реализации проектов</h3>
                                 <p>
-                                    Цитата
+																«Используем своё время к подготовке мероприятий. 
+Мероприятие начинается с планирования, без хорошего плана проведения, это как строить современный дом на фундаменте без цемента»
+
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="staff__title2">Имя Фамилия</h3>
+                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="staff__title2">Копосов Пётр</h3>
+																<div className="staff__card-back"></div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Имя Фамилия</h3>
+                                <h3 className="staff__text-title">Попов Роман <br /><br /> Должность: Менеджер реализации проектов</h3>
                                 <p>
-                                    Цитата
+																«Делаю мир вокруг себя лучше. 
+В свою работу вкладываюсь в полную силу, чтобы принести в мир всё лучшее, что могу дать»
+
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="staff__title2">Имя Фамилия</h3>
+                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="staff__title2">Попов Роман</h3>
+																<div className="staff__card-back"></div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Имя Фамилия</h3>
+                                <h3 className="staff__text-title">Лыков Евгений <br /><br /> Должность: Менеджер реализации проектов</h3>
                                 <p>
-                                    Цитата
+																«Никогда не сдаваться в своей работе. 
+Безвыходных ситуаций не бывает»
+
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/хелпер.jpg" alt=""/>
-                                <h3 className="staff__title2">Имя Фамилия</h3>
+                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                                <h3 className="staff__title2">Лыков Евгений</h3>
+																<div className="staff__card-back"></div>
                         </div>
                     </div>
 
