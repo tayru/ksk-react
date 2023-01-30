@@ -50,20 +50,21 @@
 
     .feedback-first {
         width: max-content;
-        max-width: 648px;
-        top: 495px;
+        max-width: 635px;
+        top: 490px;
     }
 
 		.feedback__text {
 			text-align: center;
+			margin-bottom: 30px;
 		}
-		
+
     .feedback-first__button {
         margin-top: 20px;
 				margin-left: 0px;
     }
 		.feedback-second {
-			min-height: 905px;
+			min-height: 860px;
 		}
 
 		.feedback-second__title {
@@ -72,9 +73,6 @@
 			margin-top: -80px;
 		}
 
-		.feedback-second__contacts {
-			display: none;
-		}
 
 		.simple-and-fast__title {
 			font-size: 30px;
@@ -305,6 +303,14 @@ text-align: center;
     .feedback-second__block-flex {
         flex-wrap: wrap;
     }
+
+		.feedback__text {
+			margin-bottom: 0px;
+		}
+
+		.feedback-second__contacts {
+			display: none;
+		}
 
     .feedback-second__block-flex_right, .feedback-second__block-flex_left {
         max-width: 100%;
