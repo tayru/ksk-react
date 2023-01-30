@@ -284,7 +284,7 @@ const Services = () => (
 																Аниматоры от KSK People aктивны, общительны и доброжелательны, симпатичны и стройны. Успешно взаимодействуют с любой аудиторией, как с детьми и взрослыми, так и с сисадминами, и поддерживают ту самую атмосферу, которая была обрисована Вами в презентации для Вашего клиента. 
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/animator-staff.png" alt=""/>
+                            <img className="service__img" src="/static/img/animator-staff.jpg" alt=""/>
                                 <h3 className="service__title">Аниматор</h3>
 																<div className="service__title-back"></div>
                         </div>
