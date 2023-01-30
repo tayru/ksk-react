@@ -298,7 +298,7 @@ const Services = () => (
                                 Предоставим массовку в любом объёме и количестве! 
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
+                            <img className="service__img" src="/static/img/extras-staff.jpg" alt=""/>
                                 <h3 className="service__title">Массовка</h3>
 																<div className="service__title-back"></div>
                         </div>
