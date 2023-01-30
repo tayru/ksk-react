@@ -479,6 +479,7 @@ body {
   line-height: 18px;
   text-align: center;
   color: var(--white);
+	z-index: 10;
 	
 }
 
@@ -981,7 +982,7 @@ body {
   font-size: 60px;
   line-height: 69px;
   color: var(--white);
-  max-width: 882px;
+  text-align: center;
   margin: auto;
 	margin-top: 200px;
 }
@@ -1002,7 +1003,7 @@ body {
   font-size: 60px;
   line-height: 69px;
   color: var(--white);
-  max-width: 1100px;
+  text-align: center;
   margin: auto;
 	margin-top: 200px;
 }
@@ -1023,7 +1024,7 @@ body {
   font-size: 60px;
   line-height: 69px;
   color: var(--white);
-  max-width: 830px;
+  text-align: center;
   margin: auto;
 	margin-top: 200px;
 }
@@ -1044,7 +1045,7 @@ body {
   font-size: 60px;
   line-height: 69px;
   color: var(--white);
-  max-width: 675px;
+  text-align: center;
   margin: auto;
 	margin-top: 200px;
 }
@@ -1065,7 +1066,7 @@ body {
   font-size: 60px;
   line-height: 69px;
   color: var(--white);
-  max-width: 720px;
+  text-align: center;
   margin: auto;
 	margin-top: 200px;
 }
@@ -1086,7 +1087,7 @@ body {
   font-size: 60px;
   line-height: 69px;
   color: var(--white);
-  max-width: 1380px;
+  text-align: center;
   margin: auto;
 	margin-top: 200px;
 }
@@ -1107,7 +1108,7 @@ body {
   font-size: 60px;
   line-height: 69px;
   color: var(--white);
-  max-width: 580px;
+  text-align: center;
   margin: auto;
 	margin-top: 200px;
 }
