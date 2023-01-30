@@ -51,10 +51,16 @@
     .feedback-first {
         width: max-content;
         max-width: 648px;
-        top: 460px;
+        top: 495px;
     }
+
+		.feedback__text {
+			text-align: center;
+		}
+		
     .feedback-first__button {
-        margin-top: 40px;
+        margin-top: 20px;
+				margin-left: 0px;
     }
 		.feedback-second {
 			min-height: 905px;
@@ -64,6 +70,10 @@
 			font-size: 30px;
 			margin-bottom: 30px;
 			margin-top: -80px;
+		}
+
+		.feedback-second__contacts {
+			display: none;
 		}
 
 		.simple-and-fast__title {
@@ -344,14 +354,13 @@ text-align: center;
     }
 
     .feedback-input {
-        padding: 5px 5px 5px 5px;
         gap: 10px;
         width: 100%;
         max-width: inherit;
     }
 
     .feedback-first {
-        top: 370px;
+        top: 390px;
     }
 
 		.popular-services__title {
@@ -410,6 +419,10 @@ text-align: center;
 
 .services__buttons  .button2 {
 	margin-right: 0px;
+}
+
+.feedback-first {
+	top: 360px;
 }
 
 }
