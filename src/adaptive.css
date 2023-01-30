@@ -54,6 +54,10 @@
         top: 490px;
     }
 
+		.feedback-first__about-us {
+			max-width: 630px;
+		}
+
 		.feedback__text {
 			text-align: center;
 			margin-bottom: 30px;
@@ -164,10 +168,6 @@
 		margin-bottom: 110px;
 	}
 
-	.team__title {
-		margin-top: 280px;
-		margin-bottom: 20px;
-	}
 	.page2__title {
     font-size: 40px;
     text-align: center;
@@ -293,6 +293,11 @@ text-align: center;
 	margin-top: 20px;
 }
 
+.team__title {
+	margin-top: 180px;
+	margin-bottom: 20px;
+}
+
 }
 /* ------------------------------------------------------------------------ */
 @media (max-width: 767px) {
@@ -391,7 +396,10 @@ text-align: center;
 				
 		}
 
-
+		.team__title {
+			margin-top: 280px;
+			margin-bottom: 20px;
+		}
 		
 }
 /* ------------------------------------------------------------------------ */
