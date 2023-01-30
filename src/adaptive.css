@@ -68,7 +68,7 @@
 				margin-left: 0px;
     }
 		.feedback-second {
-			min-height: 860px;
+			min-height: 725px;
 		}
 
 		.feedback-second__title {
@@ -310,6 +310,11 @@ text-align: center;
         padding: 25px 15px 45px 15px;
         bottom: auto;
     }
+
+
+		.feedback-second {
+			min-height: 860px;
+		}
 
     .feedback-second__block-flex {
         flex-wrap: wrap;
