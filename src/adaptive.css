@@ -56,10 +56,14 @@
     .feedback-first__button {
         margin-top: 40px;
     }
+		.feedback-second {
+			min-height: 905px;
+		}
 
 		.feedback-second__title {
 			font-size: 30px;
 			margin-bottom: 30px;
+			margin-top: -80px;
 		}
 
 		.simple-and-fast__title {
