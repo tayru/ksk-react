@@ -8,6 +8,13 @@
   --red: #FF0000;
 }
 
+@media (max-width: 1200px) {
+	.about-us {
+    min-height: 770px;
+	}
+
+}
+
 @media (max-width: 1014px) {
 .navbar-expand-lg {
 	background: linear-gradient(0deg, rgba(0, 38, 71, 0.9), rgba(0, 38, 71, 0.9));

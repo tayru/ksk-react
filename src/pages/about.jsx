@@ -64,22 +64,22 @@ const About = () => (
             <div className="container">
                 <div className="row">
                     <h2 className="team__title">Наша команда</h2>
-                    <div className="col">
+										<div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Картамышев Алексей <br /><br /> Должность: Ведущий логист проектов</h3>
+                                <h3 className="staff__text-title">Самсонов Владимир <br /><br /> Должность: Исполнительный директор</h3>
                                 <p>
-																«Наша цель — это качество. 
-Я твёрдо верю, что только качественное сопровождение мероприятия позволит поднять его статусность в глазах гостей и организаторов мероприятия»
+																«Стоит быть влюбленным в свою работу. 
+Работа должна приносить радость, должна приносить удовольствие и повышать Ваше качество жизни и качество жизни Ваших коллег. Event — это именно та область, которая позволяет любить свою работу» 
 
                                 </p>
                             </div>
                             <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
-                                <h3 className="staff__title2">Картамышев Алексей </h3>
+                                <h3 className="staff__title2">Самсонов Владимир</h3>
 																<div className="staff__card-back"></div>
                         </div>
                     </div>
-                    <div className="col">
+										<div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Комарский Никита <br /><br /> Должность: Управляющий партнёр</h3>
@@ -97,15 +97,15 @@ const About = () => (
                     <div className="col">
                         <div className="staff__card">
                             <div className="staff__text">
-                                <h3 className="staff__text-title">Самсонов Владимир <br /><br /> Должность: Исполнительный директор</h3>
+                                <h3 className="staff__text-title">Картамышев Алексей <br /><br /> Должность: Ведущий логист проектов</h3>
                                 <p>
-																«Стоит быть влюбленным в свою работу. 
-Работа должна приносить радость, должна приносить удовольствие и повышать Ваше качество жизни и качество жизни Ваших коллег. Event — это именно та область, которая позволяет любить свою работу» 
+																«Наша цель — это качество. 
+Я твёрдо верю, что только качественное сопровождение мероприятия позволит поднять его статусность в глазах гостей и организаторов»
 
                                 </p>
                             </div>
                             <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
-                                <h3 className="staff__title2">Самсонов Владимир</h3>
+                                <h3 className="staff__title2">Картамышев Алексей </h3>
 																<div className="staff__card-back"></div>
                         </div>
                     </div>
