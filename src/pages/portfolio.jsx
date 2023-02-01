@@ -16,8 +16,8 @@ const Portfolio = () => (
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
 			</div>
-			<div class="main-block__image _ibg">
-				<img src="/static/img/portfolio.jpg" alt="cover"/>
+			<div class="portfolio__image _ibg">
+				<img src="/static/img/KSKlogo2.png" alt="cover"/>
 			</div>
 		</div>
 
@@ -35,22 +35,10 @@ const Portfolio = () => (
 								<img src="/static/img/festivals1.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals3.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals4.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
 								<img src="/static/img/festivals5.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
 								<img src="/static/img/festivals6.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals7.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals8.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
 								<img src="/static/img/festivals9.jpg" alt=""/>
@@ -91,9 +79,6 @@ const Portfolio = () => (
 									<img src="/static/img/city2.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/city3.jpg" alt=""/>
-								</div>
-								<div class="slider-portfolio__item">
 									<img src="/static/img/city4.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
@@ -117,13 +102,7 @@ const Portfolio = () => (
 									<img src="/static/img/forums3.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
-									<img src="/static/img/forums4.jpg" alt=""/>
-								</div>
-								<div class="slider-portfolio__item">
 									<img src="/static/img/forums5.jpg" alt=""/>
-								</div>
-								<div class="slider-portfolio__item">
-									<img src="/static/img/forums6.jpg" alt=""/>
 								</div>
 								<div class="slider-portfolio__item">
 									<img src="/static/img/forums7.jpg" alt=""/>

@@ -489,7 +489,7 @@ body {
 }
 
 .service__text-title {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 /* margin: 22px 22px 22px 22px; */
@@ -957,12 +957,17 @@ body {
     color: var(--white);
     z-index: 10;
 }
+
+.staff__text span {
+  font-style: italic;
+}
+
 .staff__text p {
 	padding: 10px 10px;
 }
 
 .staff__text-title {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 
@@ -1230,6 +1235,15 @@ body {
 .portfolio {
   margin-top: 30px;
 }
+
+/* .portfolio__image {
+	position: absolute;
+  width: 990px;
+  height: 690px;
+	top: -30px;
+  left: auto;
+  
+} */
 
 .portfolio__block {
 }

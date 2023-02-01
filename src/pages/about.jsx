@@ -69,12 +69,12 @@ const About = () => (
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Самсонов Владимир <br /><br />Исполнительный директор</h3>
                                 <p>
-																«Стоит быть влюбленным в свою работу. 
-Работа должна приносить радость, должна приносить удовольствие и повышать Ваше качество жизни и качество жизни Ваших коллег. Event — это именно та область, которая позволяет любить свою работу» 
+																<span>«Стоит быть влюбленным в свою работу. 
+Работа должна приносить радость, должна приносить удовольствие и повышать Ваше качество жизни и качество жизни Ваших коллег. Event — это именно та область, которая позволяет любить свою работу»</span> 
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/Samsonov.jpg" alt=""/>
                                 <h3 className="staff__title2">Самсонов Владимир</h3>
 																<div className="staff__card-back"></div>
                         </div>
@@ -84,12 +84,12 @@ const About = () => (
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Комарский Никита <br /><br />Управляющий партнёр</h3>
                                 <p>
-																«Думать о людях в своей работе. 
-Наша работа — приносить наиболее желанный комфорт нашим клиентам и подрядчикам. Мы прежде всего думаем о нашей репутации как надежной компании»
+																<span>«Думать о людях в своей работе. 
+Наша работа — приносить наиболее желанный комфорт нашим клиентам и подрядчикам. Мы прежде всего думаем о нашей репутации как надежной компании»</span>
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/Komarskij.jpg" alt=""/>
                                 <h3 className="staff__title2">Комарский Никита</h3>
 																<div className="staff__card-back"></div>
                         </div>
@@ -99,12 +99,12 @@ const About = () => (
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Картамышев Алексей <br /><br />Ведущий логист проектов</h3>
                                 <p>
-																«Наша цель — это качество. 
-Я твёрдо верю, что только качественное сопровождение мероприятия позволит поднять его статусность в глазах гостей и организаторов»
+																<span>«Наша цель — это качество. 
+Я твёрдо верю, что только качественное сопровождение мероприятия позволит поднять его статусность в глазах гостей и организаторов»</span>
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/Kartamyshev.jpg" alt=""/>
                                 <h3 className="staff__title2">Картамышев Алексей </h3>
 																<div className="staff__card-back"></div>
                         </div>
@@ -114,12 +114,12 @@ const About = () => (
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Грибанов Виталий <br /><br />Ведущий специалист организации и реализации парковочного пространства </h3>
                                 <p>
-																«Всегда найдётся свободное место. 
-Задача организации парковки одна из самых главных во время проведения фестивалей. Огромный опыт позволяет разрегулировать практически любую ситуацию»
+																<span>«Всегда найдётся свободное место. 
+Задача организации парковки одна из самых главных во время проведения фестивалей. Огромный опыт позволяет разрегулировать практически любую ситуацию»</span>
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/Gribanov.jpg" alt=""/>
                                 <h3 className="staff__title2">Грибанов Виталий</h3>
 																<div className="staff__card-back"></div>
                         </div>
@@ -129,10 +129,10 @@ const About = () => (
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Галыка Роман <br /><br />Руководитель направления обеспечения безопасности</h3>
                                 <p>
-																«С вопроса обеспечения безопасности мероприятия начинается цеха его успешной реализации» 
+																<span>«С вопроса обеспечения безопасности мероприятия начинается цеха его успешной реализации»</span>
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/Galyka.jpg" alt=""/>
                                 <h3 className="staff__title2">Галыка Роман</h3>
 																<div className="staff__card-back"></div>
                         </div>
@@ -142,12 +142,12 @@ const About = () => (
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Копосов Пётр <br /><br />Менеджер реализации проектов</h3>
                                 <p>
-																«Используем своё время к подготовке мероприятий. 
-Мероприятие начинается с планирования, без хорошего плана проведения, это как строить современный дом на фундаменте без цемента»
+																<span>«Используем своё время к подготовке мероприятий. 
+Мероприятие начинается с планирования, без хорошего плана проведения, это как строить современный дом на фундаменте без цемента»</span>
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/Koposov.jpg" alt=""/>
                                 <h3 className="staff__title2">Копосов Пётр</h3>
 																<div className="staff__card-back"></div>
                         </div>
@@ -157,12 +157,12 @@ const About = () => (
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Попов Роман <br /><br /> Менеджер реализации проектов</h3>
                                 <p>
-																«Делаю мир вокруг себя лучше. 
-В свою работу вкладываюсь в полную силу, чтобы принести в мир всё лучшее, что могу дать»
+																<span>«Делаю мир вокруг себя лучше. 
+В свою работу вкладываюсь в полную силу, чтобы принести в мир всё лучшее, что могу дать»</span>
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/Popov.jpg" alt=""/>
                                 <h3 className="staff__title2">Попов Роман</h3>
 																<div className="staff__card-back"></div>
                         </div>
@@ -172,12 +172,12 @@ const About = () => (
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Лыков Евгений <br /><br />Менеджер реализации проектов</h3>
                                 <p>
-																«Никогда не сдаваться в своей работе. 
-Безвыходных ситуаций не бывает»
+																<span>«Никогда не сдаваться в своей работе. 
+Безвыходных ситуаций не бывает»</span>
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/helper-staff.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/Lykov.jpg" alt=""/>
                                 <h3 className="staff__title2">Лыков Евгений</h3>
 																<div className="staff__card-back"></div>
                         </div>
