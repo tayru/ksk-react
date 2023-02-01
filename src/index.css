@@ -255,8 +255,9 @@ body {
   font-size: 60px;
   line-height: 69px;
   color: var(--white);
-  max-width: 566px;
+  text-align: center;
   margin: auto;
+	margin-top: 200px;
 }
 
 .main-block__image {
@@ -392,7 +393,7 @@ body {
 }
 /* ------------------------------------------------------------------------ */
 .popular-services {
-  background: var(--grey);
+  background: var(--white);
 }
 
 .popular-services__title {
@@ -545,7 +546,7 @@ body {
 }
 
 .services {
-	margin-top: -330px;
+	margin-top: 60px;
   position: relative;
 	z-index: 11;
 }
@@ -582,7 +583,6 @@ body {
 }
 
 .list__item-link {
-	
 	display: flex;
     width: 100%;
     height: 100%;
@@ -619,7 +619,7 @@ body {
 }
 /* ------------------------------------------------------------------------ */
 .advantages {
-  background-color: var(--white);
+  background-color: var(--grey);
 }
 .list-advantages {
   display: flex;
@@ -918,13 +918,27 @@ body {
   margin-bottom: 60px;
 }
 /* ------------------------------------------------------------------------ */
+.staff {
+	
+}
+
+.staff__main-text {
+	
+	font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
 .staff__title {
 	font-family: 'Ubuntu';
   font-weight: 500;
   font-size: 40px;
   color: var(--dark-blue);
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 30px;
 }
 
@@ -1162,6 +1176,7 @@ body {
 
 /* ------------------------------------------------------------------------ */
 .we-are-trusted {
+	margin-bottom: 60px;
 }
 
 .we-are-trusted__title {

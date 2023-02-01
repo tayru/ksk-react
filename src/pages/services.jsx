@@ -4,62 +4,27 @@ const Services = () => (
     <main className="page3">
         <div className="page__main-block main-block">
             <div className="main-block__container _container">
-                <h1 className="page3__title">Услгуи и персонал</h1>
+                <h1 className="page3__title">Услуги и персонал</h1>
+								<div className="divider">
+					<img src="/static/img/divider-white.svg" alt=""/>
+				</div>
             </div>
             <div className="main-block__image _ibg">
-                <img src="/static/img/09c50d3e-0620-4510-a264-c49d3827a506.jfif" alt="cover"/>
+                <img src="/static/img/services_cover.png" alt="cover"/>
             </div>
         </div>
 
-        <div className="services">
-            <div className="container services__block">
-                <div className="row">
-                    <h2 className="services__title">Комплексные услгуи</h2>
-                    <ul className="services-list">
-                        <li className="services-list__item">
-													<Link className="list__item-link" to="/parking">
-                            Организация парковки и КПП <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
-														</Link>
-                        </li>
-												<li className="services-list__item">
-													<Link className="list__item-link" to="/sanitation">
-													Организация санитарной обработки <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
-														</Link>
-                        </li>
-                        <li className="services-list__item">
-													<Link className="list__item-link" to="/security">
-													Организация безопасности <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
-														</Link>
-                        </li>
-												<li className="services-list__item">
-													<Link className="list__item-link" to="/cleaning">
-													Организация чистоты <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
-														</Link>
-                        </li>
-                        <li className="services-list__item">
-													<Link className="list__item-link" to="/promo">
-													Промо-сопровождение <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
-														</Link>
-                        </li>
-                        <li className="services-list__item">
-													<Link className="list__item-link" to="/logistics">
-													Логистическое сопровождение мероприятия <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
-														</Link>
-                        </li>
-                        <li className="services-list__item">
-													<Link className="list__item-link" to="/photo">
-													Фото/видеосъемка <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
-														</Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        
 
         <div className="staff">
             <div className="container">
                 <div className="row">
                     <h2 className="staff__title">Персонал на мероприятия</h2>
+										<div className="staff__main-text">
+										Предоставляем любой персонал под Ваш запрос и требования, реализуем Ваше мероприятие под ключ. <br /><br />
+Индивидуально подходим к каждому мероприятию, стоимость услуг рассчитываем под Ваш запрос.
+                        </div>
+							
                     <div className="col">
                         <div className="service">
                             <div className="service__text">
@@ -140,7 +105,7 @@ const Services = () => (
                     <div className="col">
                         <div className="service">
                             <div className="service__text">
-                                <h3 className="service__text-title">Безопасность</h3>
+                                <h3 className="service__text-title">Администратор безопасности</h3>
                                 <p>
                                     Профессиональные сотрудники на частное
                                     мероприятие – гарантия безопасности
@@ -149,8 +114,8 @@ const Services = () => (
                                     будет исчерпан прежде, чем начнется.
                                 </p>
                             </div>
-                            <img className="service__img" src="/static/img/безопасность.jpg" alt=""/>
-                                <h3 className="service__title">Безопасность</h3>
+                            <img className="service__img" src="/static/img/security-staff.jpg" alt=""/>
+                                <h3 className="service__title">Администратор безопасности</h3>
 																<div className="service__title-back"></div>
                         </div>
                     </div>
@@ -276,49 +241,52 @@ const Services = () => (
 																<div className="service__title-back"></div>
                         </div>
                     </div>
-                    <div className="col">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Аниматор</h3>
-                                <p>
-																Аниматоры от KSK People aктивны, общительны и доброжелательны, симпатичны и стройны. Успешно взаимодействуют с любой аудиторией, как с детьми и взрослыми, так и с сисадминами, и поддерживают ту самую атмосферу, которая была обрисована Вами в презентации для Вашего клиента. 
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/animator-staff.jpg" alt=""/>
-                                <h3 className="service__title">Аниматор</h3>
-																<div className="service__title-back"></div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Массовка</h3>
-                                <p>
-																Опытный статист или целая группа статистов — это одна из многих услуг, которые предлагает наше агентство. Наши сотрудники обладают минимальными актерскими навыками, не теряются в центре внимания и быстро реагируют на указания режиссера.
-                                Предоставим массовку в любом объёме и количестве! 
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/extras-staff.jpg" alt=""/>
-                                <h3 className="service__title">Массовка</h3>
-																<div className="service__title-back"></div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Швейцар</h3>
-                                <p>
-																Швейцар KSK People позволит каждому из ваших гостей почувствовать себя влиятельной персоной, перед которой склонят голову другие.
-Мы выберем симпатичных, галантных парней. Они наденут классический костюм или наряд в соответствии с вашими потребностями и спецификой мероприятия. 
-
-                                </p>
-                            </div>
-                            <img className="service__img" src="/static/img/porter-staff.png" alt=""/>
-                                <h3 className="service__title">Швейцар</h3>
-																<div className="service__title-back"></div>
-                        </div>
-                    </div>
                 
+										<div className="services">
+            <div className="container services__block">
+                <div className="row">
+                    <h2 className="services__title">Комплексные услуги</h2>
+                    <ul className="services-list">
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/parking">
+                            Организация парковки и КПП <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+												<li className="services-list__item">
+													<Link className="list__item-link" to="/sanitation">
+													Организация санитарной обработки <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/security">
+													Организация безопасности <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+												<li className="services-list__item">
+													<Link className="list__item-link" to="/cleaning">
+													Организация чистоты <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/promo">
+													Промо-сопровождение <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/logistics">
+													Логистическое сопровождение мероприятия <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/photo">
+													Фото/видеосъемка <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
                 </div>
             </div>
 						<Link to="/contacts">

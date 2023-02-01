@@ -8,7 +8,7 @@ const Trust = () => (
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/static/img/trust.jpg" alt="cover"/>
+				
 			</div>
 		</div>
 
@@ -26,13 +26,14 @@ const Trust = () => (
 							<img className="trusted-logo__item" src="/static/img/АО КСК Ивановское 1.png" alt=""/>
 							<img className="trusted-logo__item" src="/static/img/АНО Центр развития туризма Московской области 1.png" alt=""/>
 							<img className="trusted-logo__item" src="/static/img/ООО МИР ХЭППИ 1.png" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/9d81b1a6-3d84-4f14-bb10-0b28981ed7ba.jpg" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/IMG_0415.PNG" alt=""/>
 							</section>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
 
 	</main>
 

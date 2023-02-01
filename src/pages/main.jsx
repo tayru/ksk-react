@@ -98,6 +98,35 @@ const Main = () => (
             </div>
         </div>
 
+				<div className="advantages">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12">
+                        <div className="list-advantages">
+                            <div className="advantage advantage1">
+                                <img className="advantage__image" src="/static/img/Group.svg" alt=""/>
+                                <span>Высокая договоренность и оперативная коммуникация.</span>
+                            </div>
+                            <div className="advantage advantage2">
+                                <img className="advantage__image" src="/static/img/star-02.svg" alt=""/>
+                                <span>Профессионализм. Мы являемся специалистами своего дела!</span>
+                            </div>
+                            <div className="advantage advantage3">
+                                <img className="advantage__image" src="/static/img/Safe-chat.svg" alt=""/>
+                                <span>Индивидуальный подход и адаптивность решений Ваших задач.</span>
+                            </div>
+                        </div>
+
+                        <video autoPlay loop muted controls className="advantages__video"
+                              src="/static/img/VID_20200816_142820 (1).mp4"></video>
+
+                        <h2 className="advantages__title">Организуем <span>логистику любого уровня</span> независимо от
+                            условий и дальности!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div className="popular-services">
             <div className="container">
                 <div className="row">
@@ -117,6 +146,23 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="static/img/parking-staff.jpg" alt=""/>
                                 <h3 className="service__title">Парковщик</h3>
+																<div className="service__title-back"></div>
+                        </div>
+                    </div>
+										<div className="col">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Администратор безопасности</h3>
+                                <p>
+                                    Профессиональные сотрудники на частное
+                                    мероприятие – гарантия безопасности
+                                    участников и гостей события.
+                                    Посторонние не пройдут, любой конфликт
+                                    будет исчерпан прежде, чем начнется.
+                                </p>
+                            </div>
+                            <img className="service__img" src="/static/img/security-staff.jpg" alt=""/>
+                                <h3 className="service__title">Администратор безопасности</h3>
 																<div className="service__title-back"></div>
                         </div>
                     </div>
@@ -184,35 +230,6 @@ const Main = () => (
                         </div>
 
 
-                </div>
-            </div>
-        </div>
-
-        <div className="advantages">
-            <div className="container">
-                <div className="row">
-                    <div className="col-sm-12">
-                        <div className="list-advantages">
-                            <div className="advantage advantage1">
-                                <img className="advantage__image" src="/static/img/Group.svg" alt=""/>
-                                <span>Высокая договоренность и оперативная коммуникация.</span>
-                            </div>
-                            <div className="advantage advantage2">
-                                <img className="advantage__image" src="/static/img/star-02.svg" alt=""/>
-                                <span>Профессионализм. Мы являемся специалистами своего дела!</span>
-                            </div>
-                            <div className="advantage advantage3">
-                                <img className="advantage__image" src="/static/img/Safe-chat.svg" alt=""/>
-                                <span>Индивидуальный подход и адаптивность решений Ваших задач.</span>
-                            </div>
-                        </div>
-
-                        <video autoPlay loop muted controls className="advantages__video"
-                              src="/static/img/VID_20200816_142820 (1).mp4"></video>
-
-                        <h2 className="advantages__title">Организуем <span>логистику любого уровня</span> независимо от
-                            условий и дальности!</h2>
-                    </div>
                 </div>
             </div>
         </div>
