@@ -1237,14 +1237,7 @@ body {
   margin-top: 30px;
 }
 
-/* .portfolio__image {
-	position: absolute;
-  width: 990px;
-  height: 690px;
-	top: -30px;
-  left: auto;
-  
-} */
+
 
 .portfolio__block {
 }
@@ -1259,11 +1252,24 @@ body {
 	margin-bottom: 30px;
 }
 
-/* .contacts__title {
-	font-weight: 500;
-  font-size: 60px;
-  line-height: 69px;
-  color: var(--white);
+.portfolio__item-title {
+	position: absolute;
+  bottom: 0;
+  width: 100%;
   text-align: center;
-  margin: auto;
-} */
+  color: var(--dark-blue);
+  font-size: 24px;
+	margin-bottom: 15px;
+  z-index: 1;
+
+}
+
+.portfolio__item-back {
+	background:linear-gradient(180deg, rgba(255, 255, 255, 0) 85.94%, #FFFFFF 100%);
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: 0;
+
+}
