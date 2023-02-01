@@ -960,6 +960,7 @@ body {
 
 .staff__text span {
   font-style: italic;
+	font-size: 18px;
 }
 
 .staff__text p {
