@@ -73,7 +73,7 @@ const About = () => (
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/Samsonov.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/Samsonov2.png" alt=""/>
                                 <h3 className="staff__title2">Самсонов Владимир</h3>
 																<div className="staff__card-back"></div>
                         </div>
@@ -116,7 +116,7 @@ const About = () => (
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/" alt=""/>
+                            <img className="staff__img" src="/static/img/Gribanov.png" alt=""/>
                                 <h3 className="staff__title2">Грибанов Виталий</h3>
 																<div className="staff__card-back"></div>
                         </div>
