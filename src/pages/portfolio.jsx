@@ -16,6 +16,9 @@ const Portfolio = () => (
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
 			</div>
+			<div className="main-block__image _ibg portfolio-cover">
+				<img src="/static/img/KSKlogo2.png" alt="cover"/>
+			</div>
 		</div>
 
 		<div class="portfolio">
