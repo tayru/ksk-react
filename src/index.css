@@ -393,7 +393,7 @@ body {
 }
 /* ------------------------------------------------------------------------ */
 .popular-services {
-  background: var(--white);
+  background: var(--grey);
 }
 
 .popular-services__title {
@@ -619,7 +619,7 @@ body {
 }
 /* ------------------------------------------------------------------------ */
 .advantages {
-  background-color: var(--grey);
+  
 }
 .list-advantages {
   display: flex;
