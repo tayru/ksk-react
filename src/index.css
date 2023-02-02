@@ -1237,7 +1237,9 @@ body {
   margin-top: 30px;
 }
 
-
+/* .portfolio__image {
+	background-image: url(/static/img/KSKlogo2.png);
+} */
 
 .portfolio__block {
 }

@@ -10,14 +10,11 @@ const settings = {
 const Portfolio = () => (
 	<main class="page4">
 		<div class="page__main-block main-block">
-			<div class="main-block__container _container">
+			<div class="main-block__container _container portfolio__image">
 				<h1 class="portfolio__title">Портфолио</h1>
 				<div class="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
-			</div>
-			<div class="portfolio__image _ibg">
-				<img src="/static/img/KSKlogo2.png" alt="cover"/>
 			</div>
 		</div>
 
