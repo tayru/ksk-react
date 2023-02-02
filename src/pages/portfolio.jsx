@@ -165,7 +165,7 @@ const Portfolio = () => (
 							<Slider {...settings}>
 								<div class="slider-portfolio__item">
 									<img src="/static/img/events1.jpg" alt=""/>
-									<h3 className="portfolio__item-title">40 лет Аэрофлоту</h3>
+									<h3 className="portfolio__item-title">40 лет Аэрофлотуn</h3>
 								<div className="portfolio__item-back"></div>
 								</div>
 								<div class="slider-portfolio__item">

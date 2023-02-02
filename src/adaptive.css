@@ -460,4 +460,8 @@ text-align: center;
 	top: 360px;
 }
 
+.portfolio__item-title {
+	font-size: 12px;
+}
+
 }

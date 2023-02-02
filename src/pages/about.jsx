@@ -116,7 +116,7 @@ const About = () => (
 
                                 </p>
                             </div>
-                            <img className="staff__img" src="/static/img/Gribanov.jpg" alt=""/>
+                            <img className="staff__img" src="/static/img/" alt=""/>
                                 <h3 className="staff__title2">Грибанов Виталий</h3>
 																<div className="staff__card-back"></div>
                         </div>
@@ -126,7 +126,7 @@ const About = () => (
                             <div className="staff__text">
                                 <h3 className="staff__text-title">Галыка Роман <br /><br />Руководитель направления обеспечения безопасности</h3>
                                 <p>
-																<span>«С вопроса обеспечения безопасности начинается успешная реализация мероприятий»</span>
+																<span>«С вопроса обеспечения безопасности начинается успешная реализация мероприятия»</span>
                                 </p>
                             </div>
                             <img className="staff__img" src="/static/img/Galyka.jpg" alt=""/>
