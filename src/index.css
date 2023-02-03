@@ -159,10 +159,15 @@ body {
 .navbar {
 
 }
+
+.logo-head {
+margin-top: 4px;
+}
+
 .navbar-brand {
 	margin-top: 5px;
 	max-width: 172px;
-	margin-right: 100px;
+	margin-right: 50px;
 }
 
 
