@@ -1,6 +1,8 @@
+
 import { Route, Routes } from 'react-router-dom';
 import Header from "./components/header";
 import Footer from "./components/footer";
+import ScrollToTop from "./components/scroll";
 
 import Main from "./pages/main";
 import About from "./pages/about";
@@ -48,9 +50,16 @@ const App = () => {
         <Header />
         <MainRout />
         <Footer />
+				<ScrollToTop />
       </div>
+
   );
 
 }
 
+
+
+
 export default App;
+
+
