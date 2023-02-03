@@ -17,7 +17,21 @@
 }
 
 @media (max-width: 1014px) {
-.navbar-expand-lg {
+
+	.navbar-brand-soc-mobile {
+		display: flex;
+		padding: 0;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		margin: 0;
+	}
+
+	.nav-link__icon img{
+		max-height: 20px;
+	}
+
+	.navbar-expand-lg {
 	background: linear-gradient(0deg, rgba(0, 38, 71, 0.9), rgba(0, 38, 71, 0.9));
 }
 
@@ -323,6 +337,7 @@ text-align: center;
         bottom: auto;
 
     }
+
 
 	.feedback-second__button {
 		display: flex;

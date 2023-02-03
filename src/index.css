@@ -183,11 +183,18 @@ body {
 	margin: 0px 0px 0px 10px;
 }
 
+.navbar-brand-soc-mobile {
+  display: none;
+}
+
 .nav-link__icon {
 	margin: 0px 0px 0px 10px;
 	min-width: 30px;
 	max-width: 40px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .menu li a::after {
