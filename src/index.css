@@ -179,6 +179,10 @@ body {
   margin: 0px 0px 0px 30px;
 }
 
+.nav-link__contacts {
+	margin: 0px 0px 0px 10px;
+}
+
 /* .nav-link ._tg {
 	margin: 0px 0px 0px 0px;
 } */
