@@ -830,8 +830,12 @@ margin-top: 4px;
   color: var(--dark-blue);
 }
 .feedback-second__mail {
-  
+
   margin-top: 10px;
+}
+
+.feedback-second__mail a {
+	color: var(--dark-blue);
 }
 
 .phone__image {
@@ -898,6 +902,10 @@ margin-top: 4px;
   margin-left: auto;
 	margin-top: 10px;
   justify-content: flex-end;
+}
+
+.footer__mail a {
+	color: var(--white);
 }
 /* ------------------------------------------------------------------------ */
 .about-us {

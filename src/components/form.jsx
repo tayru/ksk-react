@@ -24,7 +24,7 @@ const Form = () => (
                         (930) 915-38-08</a>
                     </div>
                     <div className="feedback-second__mail">
-                        <img className="mail__image" src="/static/img/Mail.svg" alt=""/> info@kskpeople.com
+                        <img className="mail__image" src="/static/img/Mail.svg" alt=""/> <a href="mailto:info@kskpeople.com">info@kskpeople.com </a>
                     </div>
 
                 </div>
