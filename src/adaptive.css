@@ -13,6 +13,10 @@
     min-height: 770px;
 	}
 
+	.navbar-nav .nav-link {
+		font-size: 14px;
+	}
+	
 	
 }
 
@@ -35,6 +39,7 @@
 .navbar-nav .nav-link {
 	text-align: center;
 	margin: auto;
+
 }
 
 .navbar-toggler {
@@ -166,6 +171,7 @@
 
 		.why-we__image {
 			margin: 40px auto;
+			display: block;
 	}
 
 	.why-we__text {
@@ -347,6 +353,7 @@ text-align: center;
 
 
 	.feedback-second__button {
+		
 		display: flex;
 		justify-content: center;
 		position: absolute;
@@ -367,6 +374,7 @@ text-align: center;
 
 		.feedback__text {
 			margin-bottom: 15px;
+			
 		}
 
 		.feedback-second__contacts {
