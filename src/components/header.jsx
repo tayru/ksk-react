@@ -25,7 +25,7 @@ const Header = () => (
                         <span className="navbar-toggler-icon"> </span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav me-auto menu">
+                        <ul className="navbar-nav ms-auto menu">
                             <li className="nav-item">
                                 <Link className="nav-link" to='/about'> О нас</Link>
                             </li>
