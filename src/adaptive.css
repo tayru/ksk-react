@@ -21,6 +21,7 @@
 
 	.nav-link__icon img{
 		max-height: 20px;
+		margin-right: 10px;
 	}
 
 	.navbar-expand-lg {
