@@ -183,12 +183,11 @@ body {
 	margin: 0px 0px 0px 10px;
 }
 
-/* .nav-link ._tg {
-	margin: 0px 0px 0px 0px;
-} */
+.nav-link__icon {
+	margin: 0px 0px 0px 10px;
+	min-width: 30px;
+	max-width: 40px;
 
-.menu {
-  /* margin: 0px 0px 0px 100px; */
 }
 
 .menu li a::after {

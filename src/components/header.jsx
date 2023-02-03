@@ -35,13 +35,13 @@ const Header = () => (
                                 <a className="nav-link nav-link__contacts" href="tel:+79309153808">+7 (930) 915-38-08</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-link__contacts" href="https://t.me/kskpeople" > <img src="/static/img/tg-white.svg" alt="" /></a>
+                                <a className="nav-link nav-link__icon" href="https://t.me/kskpeople" > <img src="/static/img/tg-white.svg" alt="" /></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-link__contacts" href="https://wa.me/+79309153808"><img src="/static/img/whatsupp-white.svg" alt="" /></a>
+                                <a className="nav-link nav-link__icon" href="https://wa.me/+79309153808"><img src="/static/img/whatsupp-white.svg" alt="" /></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-link__contacts" href="mailto:info@kskpeople.com"><img src="/static/img/mail-white.svg" alt="" /></a>
+                                <a className="nav-link nav-link__icon" href="mailto:info@kskpeople.com"><img src="/static/img/mail-white.svg" alt="" /></a>
                             </li>
                             
                         </ul>
