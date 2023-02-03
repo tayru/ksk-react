@@ -162,11 +162,12 @@ body {
 .navbar-brand {
 	margin-top: 5px;
 	max-width: 172px;
+	margin-right: 100px;
 }
 
 
 .container-fluid {
-  max-width: 1110px;
+  max-width: 1400px;
 }
 
 .navbar-nav .nav-link {
@@ -177,6 +178,10 @@ body {
 .nav-link {
   margin: 0px 0px 0px 30px;
 }
+
+/* .nav-link ._tg {
+	margin: 0px 0px 0px 0px;
+} */
 
 .menu {
   /* margin: 0px 0px 0px 100px; */

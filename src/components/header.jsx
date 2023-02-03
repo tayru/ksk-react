@@ -12,7 +12,7 @@ const Header = () => (
                         <span className="navbar-toggler-icon"> </span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav ms-auto menu">
+                        <ul className="navbar-nav me-auto menu">
                             <li className="nav-item">
                                 <Link className="nav-link" to='/about'> О нас</Link>
                             </li>
@@ -28,9 +28,22 @@ const Header = () => (
                             <li className="nav-item">
                                 <Link className="nav-link" to='/contacts'>Контакты</Link>
                             </li>
-                            <li className="nav-item">
+                        </ul>
+
+												<ul className="navbar-nav ms-auto menu">
+												<li className="nav-item">
                                 <a className="nav-link" href="tel:+79309153808">+7 (930) 915-38-08</a>
                             </li>
+                            <li className="nav-item">
+                                <a href="https://t.me/kskpeople" > <img src="/static/img/tg-white.svg" alt="" /></a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://wa.me/+79309153808"><img src="/static/img/whatsupp-white.svg" alt="" /></a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href=""><img src="/static/img/mail-white.svg" alt="" /></a>
+                            </li>
+                            
                         </ul>
                     </div>
                 </div>
