@@ -1,16 +1,24 @@
+import { useRef } from "react";
 
 const Form = () => {
+ 
+	const nameRef = useRef();
+	const phoneRef = useRef();
+	const emailRef = useRef();
+	
 	const handleSubmit = () => {
-		 alert(1);
+		 alert(nameRef.current.value);
+		 alert(phoneRef.current.value);
+		 alert(emailRef.current.value);
 	 }
  return (
  <div className="feedback-second__block">
  <h3 className="feedback-second__title2">Свяжитесь с нами, либо оставьте заявку и мы Вам перезвоним</h3>
  <div className="feedback-second__block-flex">
  <div className="feedback-second__block-flex_left">
- <input type="text" className="feedback-input" placeholder="Ваше имя"/>
- <input type="text" className="feedback-input" placeholder="Телефон"/>
- <input type="text" className="feedback-input" placeholder="Элекронная почта"/>
+ <input ref={nameRef} type="text" className="feedback-input" placeholder="Ваше имя"/>
+ <input ref={phoneRef} type="text" className="feedback-input" placeholder="Телефон"/>
+ <input ref={emailRef} type="text" className="feedback-input" placeholder="Элекронная почта"/>
  <div className=" feedback-second__button">
  <button type="submit" className="btn-default mb-3 button1" onClick={handleSubmit} >Оставить заявку
  </button>
@@ -36,5 +44,5 @@ const Form = () => {
  </div>
  </div>);
  }
-
+ 
 export default Form;
