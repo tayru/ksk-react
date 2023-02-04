@@ -8,14 +8,14 @@ const Form = () => {
 	
 	const handleSubmit = () => {
 		 
-			fetch('/send.php', {
-				 method: 'post',
-				 body: new URLSearchParams({
-						 "name": nameRef.current.value,
-						 "text": phoneRef.current.value,
-						 "email": emailRef.current.value,
-				 })
-			 }).then((response) => console.log(response));
+		fetch('/send.php', {
+			method: 'post',
+			body: new URLSearchParams({
+			"name": nameRef.current.value,
+			"text": phoneRef.current.value,
+			"email": emailRef.current.value,
+			})
+			}).then((response) => alert('Ваша заявка принята'));
 		 
 	 }
  return (
