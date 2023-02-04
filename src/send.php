@@ -11,7 +11,7 @@ $text = $_POST['text'];
 $file = $_FILES['myfile'];
 
 // Формирование самого письма
-$title = "Заголовок письма";
+$title = "Заявка KSKPeople";
 $body = "
 <h2>Новое письмо</h2>
 <b>Имя:</b> $name<br>
