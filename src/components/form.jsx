@@ -7,9 +7,16 @@ const Form = () => {
 	const emailRef = useRef();
 	
 	const handleSubmit = () => {
-		 alert(nameRef.current.value);
-		 alert(phoneRef.current.value);
-		 alert(emailRef.current.value);
+		 
+			fetch('/send.php', {
+				 method: 'post',
+				 body: {
+						 "name": nameRef.current.value,
+						 "text": phoneRef.current.value,
+						 "email": emailRef.current.value,
+				 }
+			 }).then((response) => console.log(response));
+		 
 	 }
  return (
  <div className="feedback-second__block">
@@ -44,5 +51,6 @@ const Form = () => {
  </div>
  </div>);
  }
+ 
  
 export default Form;
