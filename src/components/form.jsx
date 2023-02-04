@@ -10,11 +10,11 @@ const Form = () => {
 		 
 			fetch('/send.php', {
 				 method: 'post',
-				 body: {
+				 body: new URLSearchParams({
 						 "name": nameRef.current.value,
 						 "text": phoneRef.current.value,
 						 "email": emailRef.current.value,
-				 }
+				 })
 			 }).then((response) => console.log(response));
 		 
 	 }
@@ -51,6 +51,5 @@ const Form = () => {
  </div>
  </div>);
  }
- 
  
 export default Form;
