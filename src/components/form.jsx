@@ -5,17 +5,20 @@ const Form = () => {
 	const nameRef = useRef();
 	const phoneRef = useRef();
 	const emailRef = useRef();
+	const descRef = useRef();
 	
 	const handleSubmit = () => {
 		 
-		fetch('/send.php', {
-			method: 'post',
-			body: new URLSearchParams({
-			"name": nameRef.current.value,
-			"text": phoneRef.current.value,
-			"email": emailRef.current.value,
-			})
-			}).then((response) => alert('Ваша заявка принята'));
+			fetch('/send.php', {
+				 method: 'post',
+				 body: new URLSearchParams({
+						 "name": nameRef.current.value,
+						 "phone": phoneRef.current.value,
+						 "email": emailRef.current.value,
+						 "description": descRef.current.value,
+						 
+				 })
+			 }).then((response) => alert('Ваша заявка отправлена'));
 		 
 	 }
  return (
@@ -35,7 +38,7 @@ const Form = () => {
  </h2>
  </div>
  <div className="feedback-second__block-flex_right">
- <textarea type="text" className="feedback-input feedback-input__textarea"
+ <textarea ref={descRef} type="text" className="feedback-input feedback-input__textarea"
  placeholder="Описание запроса"></textarea>
  <div className="feedback-second__contacts">
  <div className="feedback-second__phone">
