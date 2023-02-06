@@ -1,4 +1,12 @@
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
+const settings = {
+	dots: true,
+	infinite: true,
+	speed: 500,
+	slidesToShow: 1,
+	slidesToScroll: 1
+};
 
 const Helper = () => (
 	<main className="page7">
@@ -36,6 +44,58 @@ const Helper = () => (
 				</div>
 			</div>
 		</div>
+
+		<Slider {...settings}>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals2.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+								<div className="portfolio__item-back"></div>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals1.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals5.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals6.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals9.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals10.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals11.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals12.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals13.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals14.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals15.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							<div class="slider-portfolio__item">
+								<img src="/static/img/festivals16.jpg" alt=""/>
+								<h3 className="portfolio__item-title">III Международный конный фестиваль "Иваново поле"</h3>
+							</div>
+							</Slider>
 
 		<div className="services__buttons">
 		<Link to="/services"><button type="submit" className="btn-default mb-3 button2">Список услуг</button></Link>
