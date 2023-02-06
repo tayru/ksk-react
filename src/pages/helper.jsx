@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 
-const Parking = () => (
+const Helper = () => (
 	<main className="page7">
 		<div className="page__main-block main-block">
 			<div className="main-block__container _container">
-				<h1 className="service-parking__title">Организация парковки и КПП</h1>
+				<h1 className="service-parking__title">Хелпер</h1>
 				<div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/static/img/service-parking.jpg" alt="cover"/>
+				<img src="/static/img/" alt="cover"/>
 			</div>
 		</div>
 
@@ -22,11 +22,7 @@ const Parking = () => (
 							<img src="/static/img/stars.svg" alt=""/>
 						</div>
 						<div className="service-parking__text">
-							Парковка, наряду с другими координационными моментами, занимает важнейшее место в создании
-							хорошего впечатления от Вашего мероприятия. <br/><br/>
-							Организация парковки компанией <span>KSK PEOPLE</span> избавит от проблем отсутствия
-							парковочных мест и въезда на стоянку — гость беспрепятственно припаркуется и отправится на
-							мероприятие.
+							Текст и карусель
 						</div>
 					</div>
 				</div>
@@ -43,4 +39,4 @@ const Parking = () => (
 
 )
 	
-	export default Parking;
+	export default Helper;

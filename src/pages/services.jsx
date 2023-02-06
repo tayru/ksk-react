@@ -25,8 +25,9 @@ const Services = () => (
 Индивидуально подходим к каждому мероприятию, стоимость услуг рассчитываем под Ваш запрос.
                         </div>
 							
-                    <div className="col">
-                        <div className="service">
+												
+												<div className="col"> 
+                        <Link to="/helper"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Хелпер</h3>
                                 <p>
@@ -44,7 +45,7 @@ const Services = () => (
                             <img className="service__img" src="/static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                             <div className="service__title-back"></div>
-                        </div>
+                        </div></Link>
                     </div>
                     <div className="col">
                         <div className="service">

@@ -16,6 +16,7 @@ import Sanitation from "./pages/sanitation";
 import Security from "./pages/security";
 import Services from "./pages/services";
 import Cleaning from "./pages/cleaning";
+import Helper from "./pages/helper";
 import ListPage from "./pages/listPage";
 
 import Trust from "./pages/trust";
@@ -38,6 +39,7 @@ const MainRout = () => (
         <Route path='/trust' element={<Trust/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/cleaning' element={<Cleaning/>}/>
+				<Route path='/helper' element={<Helper/>}/>
         <Route path='/listPage' element={<ListPage/>}/>
 
       </Routes>
