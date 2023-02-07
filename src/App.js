@@ -17,6 +17,17 @@ import Security from "./pages/security";
 import Services from "./pages/services";
 import Cleaning from "./pages/cleaning";
 import Helper from "./pages/helper";
+import Loader from "./pages/loader";
+import Cleaner from "./pages/cleaner";
+import Valet from "./pages/valet";
+import Guard from "./pages/guard";
+import Promoter from "./pages/promoter";
+import Promomodel from "./pages/promomodel";
+import Promohostess from "./pages/promohostess";
+import Cloakroom from "./pages/cloakroom";
+import Waiter from "./pages/waiter";
+import Barman from "./pages/barman";
+import Cashier from "./pages/cashier";
 import ListPage from "./pages/listPage";
 
 import Trust from "./pages/trust";
@@ -40,6 +51,17 @@ const MainRout = () => (
         <Route path='/services' element={<Services/>}/>
         <Route path='/cleaning' element={<Cleaning/>}/>
 				<Route path='/helper' element={<Helper/>}/>
+				<Route path='/loader' element={<Loader/>}/>
+				<Route path='/cleaner' element={<Cleaner/>}/>
+				<Route path='/valet' element={<Valet/>}/>
+				<Route path='/guard' element={<Guard/>}/>
+				<Route path='/promoter' element={<Promoter/>}/>
+				<Route path='/promomodel' element={<Promomodel/>}/>
+				<Route path='/promohostess' element={<Promohostess/>}/>
+				<Route path='/cloakroom' element={<Cloakroom/>}/>
+				<Route path='/waiter' element={<Waiter/>}/>
+				<Route path='/barman' element={<Barman/>}/>
+				<Route path='/cashier' element={<Cashier/>}/>
         <Route path='/listPage' element={<ListPage/>}/>
 
       </Routes>

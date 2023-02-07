@@ -48,7 +48,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/loader"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Грузчик</h3>
                                 <p>
@@ -68,7 +68,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/cleaner"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Клинер</h3>
                                 <p>
@@ -86,7 +86,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/valet"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Парковщик</h3>
                                 <p>
@@ -104,7 +104,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/guard"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Администратор безопасности</h3>
                                 <p>
@@ -121,7 +121,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/promoter"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промоутер</h3>
                                 <p>
@@ -138,7 +138,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/promomodel"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промо-модель</h3>
                                 <p>
@@ -155,7 +155,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/promohostess"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промо-хостес</h3>
                                 <p>
@@ -174,7 +174,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/cloakroom"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Гардеробщик</h3>
                                 <p>
@@ -188,7 +188,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/waiter"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Официант</h3>
                                 <p>
@@ -205,7 +205,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/barman"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Бармен/бариста</h3>
                                 <p>
@@ -219,7 +219,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                     <div className="col">
-										<Link to="/helper"><div className="service">
+										<Link to="/cashier"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Кассир</h3>
                                 <p>
