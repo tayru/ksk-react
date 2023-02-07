@@ -12,7 +12,7 @@ const Promoter = () => (
 	<main className="page14">
 		<div className="page__main-block main-block">
 			<div className="main-block__container _container">
-				<h1 className="staff-helper__title">Хелпер</h1>
+				<h1 className="staff-helper__title">Промоутер</h1>
 				<div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
@@ -30,15 +30,10 @@ const Promoter = () => (
 							<img src="/static/img/stars.svg" alt=""/>
 						</div>
 						<div className="staff-helper__text">
-						Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
+						Молодые юноши и девушки
+занимающиеся рекламой компании
+или товара, события или услуги,
+опросом гостей и BTL-акциями.
 						</div>
 					</div>
 				</div>

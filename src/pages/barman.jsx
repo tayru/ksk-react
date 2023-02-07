@@ -12,7 +12,7 @@ const Barman = () => (
 	<main className="page14">
 		<div className="page__main-block main-block">
 			<div className="main-block__container _container">
-				<h1 className="staff-helper__title">Хелпер</h1>
+				<h1 className="staff-helper__title">Бармен/бариста</h1>
 				<div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
@@ -30,15 +30,8 @@ const Barman = () => (
 							<img src="/static/img/stars.svg" alt=""/>
 						</div>
 						<div className="staff-helper__text">
-						Универсальные сотрудники
-                                    выполняющие максимальное
-                                    количество задач организатора.
-                                    Разнесут полиграфию
-                                    по своим местам.
-                                    Соберут подарки для гостей
-                                    и выполнят
-                                    многие другие
-                                    задачи поставленные организатором.
+						Предоставим барменов с опытом работы на мероприятиях, любого формата и типажа: бородатых, татуированных, барменов со знанием иностранных языков.
+Если Вы ищите барменов, ассистентов или экспертов, то Вы найдете их у нас.
 						</div>
 					</div>
 				</div>
