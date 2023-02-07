@@ -47,34 +47,22 @@ const Cleaner = () => (
 				<div className="col-sm-12">
 				<Slider {...settings}>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals2.jpg" alt=""/>
+								<img src="/static/img/cleaner1.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals1.jpg" alt=""/>
+								<img src="/static/img/cleaner2.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals5.jpg" alt=""/>
+								<img src="/static/img/cleaner3.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals6.jpg" alt=""/>
+								<img src="/static/img/cleaner4.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals9.jpg" alt=""/>
+								<img src="/static/img/cleaner5.jpg" alt=""/>
 							</div>
 							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals10.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals11.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals12.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals13.jpg" alt=""/>
-							</div>
-							<div class="slider-portfolio__item">
-								<img src="/static/img/festivals14.jpg" alt=""/>
+								<img src="/static/img/cleaner6.jpg" alt=""/>
 							</div>
 							</Slider>
 				</div>
