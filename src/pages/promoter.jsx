@@ -18,7 +18,7 @@ const Promoter = () => (
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/static/img/festivals1.jpg" alt="cover"/>
+				<img src="/static/img/promoter-cover.jpg" alt="cover"/>
 			</div>
 		</div>
 

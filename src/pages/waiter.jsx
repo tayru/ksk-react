@@ -18,7 +18,7 @@ const Waiter = () => (
 				</div>
 			</div>
 			<div className="main-block__image _ibg">
-				<img src="/static/img/festivals1.jpg" alt="cover"/>
+				<img src="/static/img/waiter-cover.jpg" alt="cover"/>
 			</div>
 		</div>
 
