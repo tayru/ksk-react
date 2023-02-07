@@ -45,7 +45,10 @@ const Helper = () => (
 			</div>
 		</div>
 
-		<Slider {...settings}>
+		<div className="container">
+			<div className="row">
+				<div className="col-sm-12">
+				<Slider {...settings}>
 							<div class="slider-portfolio__item">
 								<img src="/static/img/festivals2.jpg" alt=""/>
 							</div>
@@ -77,6 +80,10 @@ const Helper = () => (
 								<img src="/static/img/festivals14.jpg" alt=""/>
 							</div>
 							</Slider>
+				</div>
+			</div>
+		</div>
+		
 
 							
 
