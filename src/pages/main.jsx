@@ -2,38 +2,65 @@ import { Link } from "react-router-dom";
 import Form from "../components/form";
 import Form1 from "../components/form1";
 import Slider from "react-slick";
+ 
 const settings = {
-	dots: true,
-	infinite: true,
-	speed: 500,
-	slidesToShow: 3,
-	slidesToScroll: 1
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1
+    
 };
-
+ 
+const isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+ 
+if (isMobile.any()) {
+    settings.slidesToShow = 1;
+}
+ 
 const Main = () => (
     <main className="page1">
         <div className="page__main-block main-block">
             <div className="main-block__container _container">
                 <h1 className="main-block__title">Предоставим <span>персонал</span>
                     <br/>в <span>любую точку</span> Москвы и области <br/>к назначенному часу</h1>
-
-
+ 
+ 
             </div>
             <div className="main-block__image _ibg">
                 <img src="/static/img/cover.jpg" alt="cover"/>
             </div>
         </div>
-
+ 
         <div className="feedback-first">
-				<Form1/>
+                <Form1/>
         </div>
-
+ 
         <div className="simple-and-fast">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12">
                         <h2 className="simple-and-fast__title">Просто и быстро:</h2>
-
+ 
                         <div className="simple-and-fast__steps">
                             <div className="step step1">
                                 <img src="/static/img/Send.svg" alt=""/>
@@ -82,26 +109,26 @@ const Main = () => (
                                 <span>Закрытие заказа</span>
                             </div>
                         </div>
-
+ 
                         <div className="order__button">
-												<Link to="/contacts"><button type="submit" className="btn-default mb-3 button1">Заказать</button></Link>
+                                                <Link to="/contacts"><button type="submit" className="btn-default mb-3 button1">Заказать</button></Link>
                         </div>
-
+ 
                     </div>
                 </div>
             </div>
         </div>
-
+ 
         <div className="popular-services">
-				<div className="container">
-			<div className="row">
-			<h2 className="popular-services__title"> Популярные услуги </h2>
-				<div className="col-sm-12">
-				<Slider {...settings}>
-				<div className="col">
+                <div className="container">
+            <div className="row">
+            <h2 className="popular-services__title"> Популярные услуги </h2>
+                <div className="col-sm-12">
+                <Slider {...settings}>
+                <div className="col">
                         <div className="service">
                             <div className="service__text">
-														<h3 className="service__text-title">Парковщик</h3>
+                                                        <h3 className="service__text-title">Парковщик</h3>
                                 <p>
                                     Сотрудники занимающиеся
                                     навигацией автомобилей на стоянках
@@ -113,10 +140,10 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="static/img/parking-staff.jpg" alt=""/>
                                 <h3 className="service__title">Парковщик</h3>
-																<div className="service__title-back"></div>
+                                                                <div className="service__title-back"></div>
                         </div>
                     </div>
-										<div className="col">
+                                        <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Администратор безопасности</h3>
@@ -130,10 +157,10 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="/static/img/security-staff.jpg" alt=""/>
                                 <h3 className="service__title">Администратор безопасности</h3>
-																<div className="service__title-back"></div>
+                                                                <div className="service__title-back"></div>
                         </div>
                     </div>
-										<div className="col">
+                                        <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промо-модель</h3>
@@ -148,15 +175,15 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="static/img/promomodel-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-модель</h3>
-																<div className="service__title-back"></div>
+                                                                <div className="service__title-back"></div>
                         </div>
                     </div>
-										<div className="col">
+                                        <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промо-хостес</h3>
                                 <p>
-																Гостеприимный промо-персонал,
+                                                                Гостеприимный промо-персонал,
 обладающий приятной внешностью.
 Их привлекают для презентации компании
 на выставках, фестивалях, конферециях,
@@ -167,10 +194,10 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="static/img/promohostess-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-хостес</h3>
-																<div className="service__title-back"></div>
+                                                                <div className="service__title-back"></div>
                         </div>
                     </div>
-										<div className="col">
+                                        <div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Хелпер</h3>
@@ -188,19 +215,19 @@ const Main = () => (
                             </div>
                             <img className="service__img" src="static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
-																<div className="service__title-back"></div>
+                                                                <div className="service__title-back"></div>
                         </div>
                     </div>
-							</Slider>
-							<div className="services__button">
-												<Link to="/services"><button type="submit" className="btn-default mb-3 button2">Все услуги</button></Link>
+                            </Slider>
+                            <div className="services__button">
+                                                <Link to="/services"><button type="submit" className="btn-default mb-3 button2">Все услуги</button></Link>
                         </div>
-				</div>
-			</div>
-		</div>
+                </div>
+            </div>
         </div>
-
-				<div className="advantages">
+        </div>
+ 
+                <div className="advantages">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12">
@@ -218,17 +245,17 @@ const Main = () => (
                                 <span>Индивидуальный подход и адаптивность решений Ваших задач.</span>
                             </div>
                         </div>
-
+ 
                         <video autoPlay loop muted controls className="advantages__video"
                               src="/static/img/VID_20200816_142820 (1).mp4"></video>
-
+ 
                         <h2 className="advantages__title">Организуем <span>логистику любого уровня</span> независимо от
                             условий и дальности!</h2>
                     </div>
                 </div>
             </div>
         </div>
-				
+                
         <div className="why-we">
             <div className="container">
                 <div className="row">
@@ -251,27 +278,27 @@ const Main = () => (
                             У нас можно заказать реквизит и оборудование для мероприятий на правах аренды.
                         </div>
                         <div className="why-we__buttons">
-												<Link to="/about"><button type="submit" className="btn-default mb-3 button2">Подробнее</button></Link>
-												<Link to="/portfolio"><button type="submit" className="btn-default mb-3 button1">Портфолио</button></Link>
+                                                <Link to="/about"><button type="submit" className="btn-default mb-3 button2">Подробнее</button></Link>
+                                                <Link to="/portfolio"><button type="submit" className="btn-default mb-3 button1">Портфолио</button></Link>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+ 
         <div className="feedback-second">
             <div className="feedback-second__image _ibg">
                 <img src="/static/img/cover.jpg" alt="cover"/>
             </div>
             <h2 className="feedback-second__title">Нужна помощь?</h2>
-
+ 
             <Form/>
-
+ 
         </div>
-
-
+ 
+ 
     </main>
-
+ 
 )
-
+ 
 export default Main;
