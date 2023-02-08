@@ -4,7 +4,7 @@ const Promo = () => (
 	<main className="page11">
 		<div className="page__main-block main-block">
 			<div className="main-block__container _container">
-				<h1 className="service-promo__title">Промо-сопровождение</h1>
+				<h1 className="service-promo__title animate__animated animate__fadeInRight">Промо-сопровождение</h1>
 				<div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>

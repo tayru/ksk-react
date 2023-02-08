@@ -111,7 +111,7 @@ const Main = () => (
         <div className="popular-services">
                 <div className="container">
             <div className="row">
-            <h2 className="popular-services__title wow animate__animated animate__fadeInRight"> Популярные услуги </h2>
+            <h2 className="popular-services__title"> Популярные услуги </h2>
                 <div className="col-sm-12">
                 <Slider {...settings}>
                 <div className="col">

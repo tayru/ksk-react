@@ -4,7 +4,7 @@ const Photo = () => (
 	<main className="page13">
 		<div className="page__main-block main-block">
 			<div className="main-block__container _container">
-				<h1 className="service-photo__title">Фото/видеосъемка</h1>
+				<h1 className="service-photo__title animate__animated animate__fadeInRight">Фото/видеосъемка</h1>
 				<div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>

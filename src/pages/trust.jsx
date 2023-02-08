@@ -2,7 +2,7 @@ const Trust = () => (
 	<main className="page5">
 		<div className="page__main-block main-block">
 			<div className="main-block__container _container">
-				<h1 className="we-are-trusted__title">Нам доверяют</h1>
+				<h1 className="we-are-trusted__title animate__animated animate__fadeInRight">Нам доверяют</h1>
 				<div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
