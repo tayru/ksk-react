@@ -30,7 +30,7 @@ const Main = () => (
     <main className="page1">
         <div className="page__main-block main-block">
             <div className="main-block__container _container">
-                <h1 className="main-block__title">Предоставим <span>персонал</span>
+                <h1 className="main-block__title animate__animated animate__fadeInRight">Предоставим <span>персонал</span>
                     <br/>в <span>любую точку</span> Москвы и области <br/>к назначенному часу</h1>
  
  
@@ -111,11 +111,11 @@ const Main = () => (
         <div className="popular-services">
                 <div className="container">
             <div className="row">
-            <h2 className="popular-services__title"> Популярные услуги </h2>
+            <h2 className="popular-services__title wow animate__animated animate__fadeInRight"> Популярные услуги </h2>
                 <div className="col-sm-12">
                 <Slider {...settings}>
                 <div className="col">
-                        <div className="service">
+								<Link to="/valet"><div className="service">
                             <div className="service__text">
                                                         <h3 className="service__text-title">Парковщик</h3>
                                 <p>
@@ -130,10 +130,10 @@ const Main = () => (
                             <img className="service__img" src="static/img/parking-staff.jpg" alt=""/>
                                 <h3 className="service__title">Парковщик</h3>
                                                                 <div className="service__title-back"></div>
-                        </div>
+                        </div></Link>
                     </div>
                                         <div className="col">
-                        <div className="service">
+																				<Link to="/guard"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Администратор безопасности</h3>
                                 <p>
@@ -147,10 +147,10 @@ const Main = () => (
                             <img className="service__img" src="/static/img/security-staff.jpg" alt=""/>
                                 <h3 className="service__title">Администратор безопасности</h3>
                                                                 <div className="service__title-back"></div>
-                        </div>
+                        </div></Link>
                     </div>
                                         <div className="col">
-                        <div className="service">
+																				<Link to="/promomodel"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промо-модель</h3>
                                 <p>
@@ -165,10 +165,10 @@ const Main = () => (
                             <img className="service__img" src="static/img/promomodel-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-модель</h3>
                                                                 <div className="service__title-back"></div>
-                        </div>
+                        </div></Link>
                     </div>
                                         <div className="col">
-                        <div className="service">
+																				<Link to="/promohostess"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промо-хостес</h3>
                                 <p>
@@ -184,10 +184,10 @@ const Main = () => (
                             <img className="service__img" src="static/img/promohostess-staff.jpg" alt=""/>
                                 <h3 className="service__title">Промо-хостес</h3>
                                                                 <div className="service__title-back"></div>
-                        </div>
+                        </div></Link>
                     </div>
                                         <div className="col">
-                        <div className="service">
+																				<Link to="/helper"><div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Хелпер</h3>
                                 <p>
@@ -205,7 +205,7 @@ const Main = () => (
                             <img className="service__img" src="static/img/helper-staff.jpg" alt=""/>
                                 <h3 className="service__title">Хелпер</h3>
                                                                 <div className="service__title-back"></div>
-                        </div>
+                        </div></Link>
                     </div>
                             </Slider>
                             <div className="services__button">
