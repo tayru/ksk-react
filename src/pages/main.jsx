@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
 import Form from "../components/form";
 import Form1 from "../components/form1";
+import Slider from "react-slick";
+const settings = {
+	dots: true,
+	infinite: true,
+	speed: 500,
+	slidesToShow: 3,
+	slidesToScroll: 1
+};
 
 const Main = () => (
     <main className="page1">
@@ -85,10 +93,12 @@ const Main = () => (
         </div>
 
         <div className="popular-services">
-            <div className="container">
-                <div className="row">
-                        <h2 className="popular-services__title"> Популярные услуги </h2>
-												<div className="col">
+				<div className="container">
+			<div className="row">
+			<h2 className="popular-services__title"> Популярные услуги </h2>
+				<div className="col-sm-12">
+				<Slider {...settings}>
+				<div className="col">
                         <div className="service">
                             <div className="service__text">
 														<h3 className="service__text-title">Парковщик</h3>
@@ -123,7 +133,25 @@ const Main = () => (
 																<div className="service__title-back"></div>
                         </div>
                     </div>
-                    <div className="col">
+										<div className="col">
+                        <div className="service">
+                            <div className="service__text">
+                                <h3 className="service__text-title">Промо-модель</h3>
+                                <p>
+                                  
+Высококвалифицированные девушки и юноши,
+которые работают на различных рекламных
+акциях и занимаются продвижением 
+какого-либо продукта, компании или услуги,
+обладают модельной внешностью.
+                                </p>
+                            </div>
+                            <img className="service__img" src="static/img/promomodel-staff.jpg" alt=""/>
+                                <h3 className="service__title">Промо-модель</h3>
+																<div className="service__title-back"></div>
+                        </div>
+                    </div>
+										<div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Промо-хостес</h3>
@@ -142,25 +170,7 @@ const Main = () => (
 																<div className="service__title-back"></div>
                         </div>
                     </div>
-                    <div className="col">
-                        <div className="service">
-                            <div className="service__text">
-                                <h3 className="service__text-title">Промо-модель</h3>
-                                <p>
-                                  
-Высококвалифицированные девушки и юноши,
-которые работают на различных рекламных
-акциях и занимаются продвижением 
-какого-либо продукта, компании или услуги,
-обладают модельной внешностью.
-                                </p>
-                            </div>
-                            <img className="service__img" src="static/img/promomodel-staff.jpg" alt=""/>
-                                <h3 className="service__title">Промо-модель</h3>
-																<div className="service__title-back"></div>
-                        </div>
-                    </div>
-                    <div className="col">
+										<div className="col">
                         <div className="service">
                             <div className="service__text">
                                 <h3 className="service__text-title">Хелпер</h3>
@@ -181,14 +191,13 @@ const Main = () => (
 																<div className="service__title-back"></div>
                         </div>
                     </div>
-
-                        <div className="services__button">
+							</Slider>
+							<div className="services__button">
 												<Link to="/services"><button type="submit" className="btn-default mb-3 button2">Все услуги</button></Link>
                         </div>
-
-
-                </div>
-            </div>
+				</div>
+			</div>
+		</div>
         </div>
 
 				<div className="advantages">
