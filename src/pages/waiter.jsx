@@ -12,8 +12,8 @@ const Waiter = () => (
 	<main className="page14">
 		<div className="page__main-block main-block">
 			<div className="main-block__container _container">
-				<h1 className="staff-helper__title animate__animated animate__fadeInRight">Официант</h1>
-				<div className="divider">
+				<h1 className="staff-helper__title">Официант</h1>
+				<div className="dividernpm ">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
 			</div>

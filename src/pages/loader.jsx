@@ -12,7 +12,7 @@ const Loader = () => (
 	<main className="page15">
 		<div className="page__main-block main-block">
 			<div className="main-block__container _container">
-				<h1 className="staff-loader__title animate__animated animate__fadeInRight">Грузчик</h1>
+				<h1 className="staff-loader__title">Грузчик</h1>
 				<div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>

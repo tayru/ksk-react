@@ -4,7 +4,7 @@ const Security  = () => (
 	<main className="page9">
 		<div className="page__main-block main-block">
 			<div className="main-block__container _container">
-				<h1 className="service-security__title animate__animated animate__fadeInRight">Организация безопасности</h1>
+				<h1 className="service-security__title">Организация безопасности</h1>
 				<div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>

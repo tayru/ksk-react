@@ -4,7 +4,7 @@ const About = () => (
     <main className="page2">
         <div className="page__main-block main-block">
             <div className="main-block__container _container">
-                <h1 className="page2__title animate__animated animate__fadeInRight">О нас</h1>
+                <h1 className="page2__title">О нас</h1>
                 <div className="divider">
                     <img src="/static/img/divider-white.svg" alt=""/>
                 </div>

@@ -30,7 +30,7 @@ const Main = () => (
     <main className="page1">
         <div className="page__main-block main-block">
             <div className="main-block__container _container">
-                <h1 className="main-block__title animate__animated animate__fadeInRight">Предоставим <span>персонал</span>
+                <h1 className="main-block__title">Предоставим <span>персонал</span>
                     <br/>в <span>любую точку</span> Москвы и области <br/>к назначенному часу</h1>
  
  

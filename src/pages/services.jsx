@@ -4,7 +4,7 @@ const Services = () => (
     <main className="page3">
         <div className="page__main-block main-block">
             <div className="main-block__container _container">
-                <h1 className="page3__title animate__animated animate__fadeInRight">Услуги и персонал</h1>
+                <h1 className="page3__title">Услуги и персонал</h1>
 								<div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
 				</div>
