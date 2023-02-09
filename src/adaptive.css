@@ -424,6 +424,13 @@ text-align: center;
 		flex-direction: column;
     }
 
+
+		.footer__text {
+        margin-bottom: 20px;
+				margin-top: 0px;
+				order: 3;
+		}
+
 	.footer__phone, .footer__mail {
 		margin: auto;
 	}
@@ -433,7 +440,7 @@ text-align: center;
         object-fit: contain;
         max-width: 110px;
         display: block;
-        margin: 40px auto 0;
+        margin: 20px auto 0;
     }
 
   .footer .footer__contacts {
