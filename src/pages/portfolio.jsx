@@ -20,6 +20,10 @@ const Portfolio = () => (
 				<img src="/static/img/KSKlogo2.png" alt="cover"/>
 			</div>
 		</div>
+		
+		<div className="download__button">
+                                                <a  href="/static/KSKPeople-presentation.pdf" download type="submit" className="btn-default mb-3 button1">Скачать презентацию</a>
+                        </div>
 
 		<div class="portfolio">
 			<div class="container">

@@ -400,6 +400,12 @@ margin-top: 4px;
   margin-bottom: 60px;
 }
 
+.download__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
 .icon-next {
   display: flex;
   margin-top: -25px;
