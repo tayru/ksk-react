@@ -34,7 +34,7 @@ const Form = () => {
  </button>
  </div>
  <h2 className="feedback__text">
- Нажимая кнопку, вы соглашаетесь на обработку персональных данных
+ Нажимая кнопку, Вы соглашаетесь на обработку персональных данных
  </h2>
  </div>
  <div className="feedback-second__block-flex_right">
