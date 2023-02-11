@@ -5,16 +5,59 @@ const Services = () => (
         <div className="page__main-block main-block">
             <div className="main-block__container _container">
                 <h1 className="page3__title">Услуги и персонал</h1>
-								<div className="divider">
+								{/* <div className="divider">
 					<img src="/static/img/divider-white.svg" alt=""/>
-				</div>
+				</div> */}
             </div>
             <div className="main-block__image _ibg">
                 <img src="/static/img/services_cover.png" alt="cover"/>
             </div>
         </div>
 
-        
+        <div className="services">
+            <div className="container services__block">
+                <div className="row">
+                    <h2 className="services__title">Комплексные услуги</h2>
+                    <ul className="services-list">
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/parking">
+                            Организация парковки и КПП <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+												<li className="services-list__item">
+													<Link className="list__item-link" to="/sanitation">
+													Организация санитарной обработки <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/security">
+													Организация безопасности <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+												<li className="services-list__item">
+													<Link className="list__item-link" to="/cleaning">
+													Организация чистоты <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/promo">
+													Промо-сопровождение <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/logistics">
+													Логистическое сопровождение мероприятия <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                        <li className="services-list__item">
+													<Link className="list__item-link" to="/photo">
+													Фото/видеосъемка <img className="angle-services" src="/static/img/Angle-services.svg" alt="" />
+														</Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
         <div className="staff">
             <div className="container">
@@ -236,7 +279,7 @@ const Services = () => (
                         </div></Link>
                     </div>
                 
-										<div className="services">
+										{/* <div className="services">
             <div className="container services__block">
                 <div className="row">
                     <h2 className="services__title">Комплексные услуги</h2>
@@ -279,7 +322,7 @@ const Services = () => (
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> */}
 
                 </div>
             </div>
