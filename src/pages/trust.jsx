@@ -21,11 +21,11 @@ const Trust = () => (
 								Наши клиенты
 							</h2>
 							<section className="trusted-logo">
-							<img  className="trusted-logo__item" src="/static/img/АНО ВОСТОК 1.png" alt=""/>
-							<img className="trusted-logo__item" src="/static/img/ООО МИДЭКСПО-ВЫСТАВКИ И ЯРМАРКИ 1.png" alt=""/>
-							<img className="trusted-logo__item" src="/static/img/АО КСК Ивановское 1.png" alt=""/>
-							<img className="trusted-logo__item" src="/static/img/АНО Центр развития туризма Московской области 1.png" alt=""/>
-							<img className="trusted-logo__item" src="/static/img/ООО МИР ХЭППИ 1.png" alt=""/>
+							<img  className="trusted-logo__item" src="/static/img/vostok.png" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/midekspo.png" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/ivanovskoe.png" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/centrturizma.png" alt=""/>
+							<img className="trusted-logo__item" src="/static/img/mirheppi.png" alt=""/>
 							<img className="trusted-logo__item" src="/static/img/9d81b1a6-3d84-4f14-bb10-0b28981ed7ba.jpg" alt=""/>
 							<img className="trusted-logo__item" src="/static/img/IMG_0415.PNG" alt=""/>
 							</section>
